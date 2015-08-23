@@ -267,10 +267,10 @@ const growthRateType = new GraphQLObjectType({
       type: GraphQLString,
       description: '',
     },
-    xp: {
-      type: GraphQLList,
-      description: '',
-    },
+    // TODO xp: {
+    //   type: GraphQLList,
+    //   description: '',
+    // },
   }),
   interfaces: [nodeInterface],
 });
@@ -420,6 +420,23 @@ const typeType = new GraphQLObjectType({
   interfaces: [nodeInterface],
 });
 
+const statChangeType = new GraphQLObjectType({
+  name: 'statChangeType',
+  description: '',
+  fields: () => ({
+    stat: {
+      type: statType,
+      description: '',
+      resolve: statChange => getStat(statChange.statId),
+    },
+    change: {
+      type: GraphQLInt,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
 const moveType = new GraphQLObjectType({
   name: 'Move',
   description: '',
@@ -477,15 +494,10 @@ const moveType = new GraphQLObjectType({
       description: '',
       resolve: move => getEffect(move.effectId),
     },
-    stat: {
-      type: statType,
-      description: '',
-      resolve: move => getStat(move.statId),
-    },
-    statChange: {
-      type: GraphQLInt,
-      description: '',
-    },
+    // TODO statChanges: {
+    //   type: new GraphQLList(statChangeType),
+    //   description: '',
+    // },
     statChance: {
       type: GraphQLInt,
       description: '',
@@ -660,6 +672,15 @@ var queryType = new GraphQLObjectType({
         },
       },
       resolve: (root, {ids}) => ids.map(id => getPokemon(id)),
+    },
+    pokemon: {
+      type: pokemonType,
+      args: {
+        id: {
+          type: GraphQLString,
+        },
+      },
+      resolve: (root, {id}) => getPokemon(id),
     },
   }),
 });

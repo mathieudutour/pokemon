@@ -4,10 +4,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Widget list</h1>
+        <h1>Pokemon list</h1>
         <ul>
-          {this.props.viewer.widgets.edges.map(edge =>
-            <li>{edge.node.name} (ID: {edge.node.id})</li>
+          {this.props.pokemons.map(pokemon =>
+            <li>{pokemon.name}</li>
           )}
         </ul>
       </div>
@@ -17,16 +17,11 @@ class App extends React.Component {
 
 export default Relay.createContainer(App, {
   fragments: {
-    viewer: () => Relay.QL`
-      fragment on User {
-        widgets(first: 10) {
-          edges {
-            node {
-              id,
-              name,
-            },
-          },
-        },
+    pokemons: () => Relay.QL`
+      fragment on Pokemon @relay(plural: true) {
+        name,
+        identifier,
+        genus
       }
     `,
   },

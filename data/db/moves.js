@@ -2472,122 +2472,121 @@ const descriptions = {
 
 const stats =
 {
-  "14": {
+  14: {statChanges: [{
     statId: 2,
-    statChange: 2
-  },
-  "28": {
+    change: 2
+  }]},
+  28: {statChanges: [{
     statId: 7,
-    statChange: -1
-  },
-  "39": {
+    change: -1
+  }]},
+  39: {statChanges: [{
     statId: 3,
-    statChange: -1
-  },
-  "43": {
+    change: -1
+  }]},
+  43: {statChanges: [{
     statId: 3,
-    statChange: -1
-  },
-  "45": {
+    change: -1
+  }]},
+  45: {statChanges: [{
     statId: 2,
-    statChange: -1
-  },
-  "51": {
+    change: -1
+  }]},
+  51: {statChanges: [{
     statId: 5,
-    statChange: -1
-  },
-  "61": {
+    change: -1
+  }]},
+  61: {statChanges: [{
     statId: 6,
-    statChange: -1
-  },
-  "62": {
+    change: -1
+  }]},
+  62: {statChanges: [{
     statId: 2,
-    statChange: -1
-  },
-  "74": {
+    change: -1
+  }]},
+  74: {statChanges: [{
     statId: 2,
-    statChange: 1
-  },
-  "74": {
+    change: 1
+  },{
     statId: 4,
-    statChange: 1
-  },
-  "81": {
+    change: 1
+  }]},
+  81: {statChanges: [{
     statId: 6,
-    statChange: -2
-  },
-  "94": {
+    change: -2
+  }]},
+  94: {statChanges: [{
     statId: 5,
-    statChange: -1
-  },
-  "96": {
+    change: -1
+  }]},
+  96: {statChanges: [{
     statId: 2,
-    statChange: 1
-  },
-  "97": {
+    change: 1
+  }]},
+  97: {statChanges: [{
     statId: 6,
-    statChange: 2
-  },
-  "103": {
+    change: 2
+  }]},
+  103: {statChanges: [{
     statId: 3,
-    statChange: -2
-  },
-  "104": {
+    change: -2
+  }]},
+  104: {statChanges: [{
     statId: 8,
-    statChange: 1
-  },
-  "106": {
+    change: 1
+  }]},
+  106: {statChanges: [{
     statId: 3,
-    statChange: 1
-  },
-  "107": {
+    change: 1
+  }]},
+  107: {statChanges: [{
     statId: 8,
-    statChange: 2
-  },
-  "108": {
+    change: 2
+  }]},
+  108: {statChanges: [{
     statId: 7,
-    statChange: -1
-  },
-  "110": {
+    change: -1
+  }]},
+  110: {statChanges: [{
     statId: 3,
-    statChange: 1
-  },
-  "111": {
+    change: 1
+  }]},
+  111: {statChanges: [{
     statId: 3,
-    statChange: 1
-  },
-  "112": {
+    change: 1
+  }]},
+  112: {statChanges: [{
     statId: 3,
-    statChange: 2
-  },
-  "132": {
+    change: 2
+  }]},
+  132: {statChanges: [{
     statId: 6,
-    statChange: -1
-  },
-  "133": {
+    change: -1
+  }]},
+  133: {statChanges: [{
     statId: 5,
-    statChange: 2
-  },
-  "134": {
+    change: 2
+  }]},
+  134: {statChanges: [{
     statId: 7,
-    statChange: -1
-  },
-  "145": {
+    change: -1
+  }]},
+  145: {statChanges: [{
     statId: 6,
-    statChange: -1
-  },
-  "148": {
+    change: -1
+  }]},
+  148: {statChanges: [{
     statId: 7,
-    statChange: -1
-  },
-  "151": {
+    change: -1
+  }]},
+  151: {statChanges: [{
     statId: 3,
-    statChange: 2
-  },
-  "159": {
+    change: 2
+  }]},
+  159: {statChanges: [{
     statId: 2,
-    statChange: 1
-  },
+    change: 1
+  }]},
 }
 
 const meta = {
@@ -4958,7 +4957,7 @@ const names = {
   "73": {
     "name":"Leech Seed"
   },
-  "74": {
+  74: {
     "name":"Growth"
   },
   "75": {
@@ -5236,7 +5235,10 @@ const names = {
   },
 }
 
-const data = Object.assign({}, moves, descriptions, meta, stats, names);
+const data = Object.keys(moves).reduce((result, id) => {
+  result[id] = Object.assign({}, moves[id], descriptions[id], meta[id], stats[id], names[id]);
+  return result;
+}, {});
 
 class Move extends Object {}
 

@@ -30521,7 +30521,10 @@ const types = {
   }
 };
 
-const data = Object.assign({}, species, names, pokemons, stats, moves, types);
+const data = Object.keys(species).reduce((result, id) => {
+  result[id] = Object.assign({}, species[id], names[id], pokemons[id], stats[id], moves[id], types[id]);
+  return result;
+}, {});
 
 class Pokemon extends Object {}
 
@@ -30535,7 +30538,8 @@ export default {
       model[key] = data[id][key];
     })
     model.evolvesToPokemonId = Object.keys(data).find(pok => {
-      data[pok].evolvesFromPokemonId === id;
+      return data[pok].evolvesFromPokemonId &&
+        "" + data[pok].evolvesFromPokemonId === "" + id;
     })
     return model;
   }),

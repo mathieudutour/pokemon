@@ -1,10 +1,10 @@
 export default class extends Relay.Route {
   static path = '/';
   static queries = {
-    viewer: (Component) => Relay.QL`
+    pokemons: (Component) => Relay.QL`
       query {
-        viewer {
-          ${Component.getFragment('viewer')},
+        pokemons(ids: $pokemonIds) {
+          ${Component.getFragment('pokemons')},
         },
       }
     `,
