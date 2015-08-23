@@ -1,0 +1,5 @@
+logs/
+data/db/
+test/
+test_utils/
+**/node_modules
