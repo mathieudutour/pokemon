@@ -1,7 +1,7 @@
 const data = {
   "1": {
     "identifier":"normal",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Normal",
     "efficacity": {
       "1": 100,
@@ -23,7 +23,7 @@ const data = {
   },
   "2": {
     "identifier":"fighting",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Fighting",
     "efficacity": {
       "1": 200,
@@ -45,7 +45,7 @@ const data = {
   },
   "3": {
     "identifier":"flying",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Flying",
     "efficacity": {
       "1": 100,
@@ -67,7 +67,7 @@ const data = {
   },
   "4": {
     "identifier":"poison",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Poison",
     "efficacity": {
       "1": 100,
@@ -89,7 +89,7 @@ const data = {
   },
   "5": {
     "identifier":"ground",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Ground",
     "efficacity": {
       "1": 100,
@@ -111,7 +111,7 @@ const data = {
   },
   "6": {
     "identifier":"rock",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Rock",
     "efficacity": {
       "1": 100,
@@ -133,7 +133,7 @@ const data = {
   },
   "7": {
     "identifier":"bug",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Bug",
     "efficacity": {
       "1": 100,
@@ -155,7 +155,7 @@ const data = {
   },
   "8": {
     "identifier":"ghost",
-    "damage_class_id":2,
+    damageClassId: 2,
     "name": "Ghost",
     "efficacity": {
       "1": 0,
@@ -177,7 +177,7 @@ const data = {
   },
   "10": {
     "identifier":"fire",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Fire",
     "efficacity": {
       "1": 100,
@@ -199,7 +199,7 @@ const data = {
   },
   "11": {
     "identifier":"water",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Water",
     "efficacity": {
       "1": 100,
@@ -221,7 +221,7 @@ const data = {
   },
   "12": {
     "identifier":"grass",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Grass",
     "efficacity": {
       "1": 100,
@@ -243,7 +243,7 @@ const data = {
   },
   "13": {
     "identifier":"electric",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Electric",
     "efficacity": {
       "1": 100,
@@ -265,7 +265,7 @@ const data = {
   },
   "14": {
     "identifier":"psychic",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Psychic",
     "efficacity": {
       "1": 100,
@@ -287,7 +287,7 @@ const data = {
   },
   "15": {
     "identifier":"ice",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Ice",
     "efficacity": {
       "1": 100,
@@ -309,7 +309,7 @@ const data = {
   },
   "16": {
     "identifier":"dragon",
-    "damage_class_id":3,
+    damageClassId: 3,
     "name": "Dragon",
     "efficacity": {
       "1": 100,

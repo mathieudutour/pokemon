@@ -1,2570 +1,2419 @@
 const species = {
   "1": {
     "identifier":"bulbasaur",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":1,
-    "color_id":5,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 1,
+    colorId: 5,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "2": {
     "identifier":"ivysaur",
-    "generation_id":1,
-    "evolves_from_pokemon_id":1,
-    "evolution_chain_id":1,
-    "color_id":5,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 1,
+    evolvesChainId: 1,
+    colorId: 5,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "3": {
     "identifier":"venusaur",
-    "generation_id":1,
-    "evolves_from_pokemon_id":2,
-    "evolution_chain_id":1,
-    "color_id":5,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":4,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: 2,
+    evolvesChainId: 1,
+    colorId: 5,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 4,
+    formsSwitchable: true
   },
   "4": {
     "identifier":"charmander",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":2,
-    "color_id":8,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 2,
+    colorId: 8,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "5": {
     "identifier":"charmeleon",
-    "generation_id":1,
-    "evolves_from_pokemon_id":4,
-    "evolution_chain_id":2,
-    "color_id":8,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 4,
+    evolvesChainId: 2,
+    colorId: 8,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "6": {
     "identifier":"charizard",
-    "generation_id":1,
-    "evolves_from_pokemon_id":5,
-    "evolution_chain_id":2,
-    "color_id":8,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: 5,
+    evolvesChainId: 2,
+    colorId: 8,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: true
   },
   "7": {
     "identifier":"squirtle",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":3,
-    "color_id":2,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 3,
+    colorId: 2,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "8": {
     "identifier":"wartortle",
-    "generation_id":1,
-    "evolves_from_pokemon_id":7,
-    "evolution_chain_id":3,
-    "color_id":2,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 7,
+    evolvesChainId: 3,
+    colorId: 2,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "9": {
     "identifier":"blastoise",
-    "generation_id":1,
-    "evolves_from_pokemon_id":8,
-    "evolution_chain_id":3,
-    "color_id":2,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: 8,
+    evolvesChainId: 3,
+    colorId: 2,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: true
   },
   "10": {
     "identifier":"caterpie",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":4,
-    "color_id":5,
-    "shape_id":2,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 4,
+    colorId: 5,
+    shapeId: 2,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "11": {
     "identifier":"metapod",
-    "generation_id":1,
-    "evolves_from_pokemon_id":10,
-    "evolution_chain_id":4,
-    "color_id":5,
-    "shape_id":2,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 10,
+    evolvesChainId: 4,
+    colorId: 5,
+    shapeId: 2,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "12": {
     "identifier":"butterfree",
-    "generation_id":1,
-    "evolves_from_pokemon_id":11,
-    "evolution_chain_id":4,
-    "color_id":9,
-    "shape_id":13,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 11,
+    evolvesChainId: 4,
+    colorId: 9,
+    shapeId: 13,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "13": {
     "identifier":"weedle",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":5,
-    "color_id":3,
-    "shape_id":2,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 5,
+    colorId: 3,
+    shapeId: 2,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "14": {
     "identifier":"kakuna",
-    "generation_id":1,
-    "evolves_from_pokemon_id":13,
-    "evolution_chain_id":5,
-    "color_id":10,
-    "shape_id":2,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 13,
+    evolvesChainId: 5,
+    colorId: 10,
+    shapeId: 2,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "15": {
     "identifier":"beedrill",
-    "generation_id":1,
-    "evolves_from_pokemon_id":14,
-    "evolution_chain_id":5,
-    "color_id":10,
-    "shape_id":13,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 14,
+    evolvesChainId: 5,
+    colorId: 10,
+    shapeId: 13,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "16": {
     "identifier":"pidgey",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":6,
-    "color_id":3,
-    "shape_id":9,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 6,
+    colorId: 3,
+    shapeId: 9,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "17": {
     "identifier":"pidgeotto",
-    "generation_id":1,
-    "evolves_from_pokemon_id":16,
-    "evolution_chain_id":6,
-    "color_id":3,
-    "shape_id":9,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 16,
+    evolvesChainId: 6,
+    colorId: 3,
+    shapeId: 9,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "18": {
     "identifier":"pidgeot",
-    "generation_id":1,
-    "evolves_from_pokemon_id":17,
-    "evolution_chain_id":6,
-    "color_id":3,
-    "shape_id":9,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 17,
+    evolvesChainId: 6,
+    colorId: 3,
+    shapeId: 9,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "19": {
     "identifier":"rattata",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":7,
-    "color_id":7,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 7,
+    colorId: 7,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "20": {
     "identifier":"raticate",
-    "generation_id":1,
-    "evolves_from_pokemon_id":19,
-    "evolution_chain_id":7,
-    "color_id":3,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":127,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 19,
+    evolvesChainId: 7,
+    colorId: 3,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 127,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "21": {
     "identifier":"spearow",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":8,
-    "color_id":3,
-    "shape_id":9,
-    "habitat_id":6,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 8,
+    colorId: 3,
+    shapeId: 9,
+    habitatId: 6,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "22": {
     "identifier":"fearow",
-    "generation_id":1,
-    "evolves_from_pokemon_id":21,
-    "evolution_chain_id":8,
-    "color_id":3,
-    "shape_id":9,
-    "habitat_id":6,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 21,
+    evolvesChainId: 8,
+    colorId: 3,
+    shapeId: 9,
+    habitatId: 6,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "23": {
     "identifier":"ekans",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":9,
-    "color_id":7,
-    "shape_id":2,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 9,
+    colorId: 7,
+    shapeId: 2,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "24": {
     "identifier":"arbok",
-    "generation_id":1,
-    "evolves_from_pokemon_id":23,
-    "evolution_chain_id":9,
-    "color_id":7,
-    "shape_id":2,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 23,
+    evolvesChainId: 9,
+    colorId: 7,
+    shapeId: 2,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "25": {
     "identifier":"pikachu",
-    "generation_id":1,
-    "evolves_from_pokemon_id":172,
-    "evolution_chain_id":10,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":10,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 172,
+    evolvesChainId: 10,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 10,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "26": {
     "identifier":"raichu",
-    "generation_id":1,
-    "evolves_from_pokemon_id":25,
-    "evolution_chain_id":10,
-    "color_id":10,
-    "shape_id":6,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":10,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 25,
+    evolvesChainId: 10,
+    colorId: 10,
+    shapeId: 6,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 10,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "27": {
     "identifier":"sandshrew",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":11,
-    "color_id":10,
-    "shape_id":6,
-    "habitat_id":6,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 11,
+    colorId: 10,
+    shapeId: 6,
+    habitatId: 6,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "28": {
     "identifier":"sandslash",
-    "generation_id":1,
-    "evolves_from_pokemon_id":27,
-    "evolution_chain_id":11,
-    "color_id":10,
-    "shape_id":6,
-    "habitat_id":6,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 27,
+    evolvesChainId: 11,
+    colorId: 10,
+    shapeId: 6,
+    habitatId: 6,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "29": {
     "identifier":"nidoran-f",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":12,
-    "color_id":2,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":8,
-    "capture_rate":235,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 12,
+    colorId: 2,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 8,
+    captureRate: 235,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "30": {
     "identifier":"nidorina",
-    "generation_id":1,
-    "evolves_from_pokemon_id":29,
-    "evolution_chain_id":12,
-    "color_id":2,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":8,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 29,
+    evolvesChainId: 12,
+    colorId: 2,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 8,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "31": {
     "identifier":"nidoqueen",
-    "generation_id":1,
-    "evolves_from_pokemon_id":30,
-    "evolution_chain_id":12,
-    "color_id":2,
-    "shape_id":6,
-    "habitat_id":3,
-    "gender_rate":8,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 30,
+    evolvesChainId: 12,
+    colorId: 2,
+    shapeId: 6,
+    habitatId: 3,
+    genderRate: 8,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "32": {
     "identifier":"nidoran-m",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":13,
-    "color_id":7,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":0,
-    "capture_rate":235,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 13,
+    colorId: 7,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 0,
+    captureRate: 235,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "33": {
     "identifier":"nidorino",
-    "generation_id":1,
-    "evolves_from_pokemon_id":32,
-    "evolution_chain_id":13,
-    "color_id":7,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":0,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 32,
+    evolvesChainId: 13,
+    colorId: 7,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 0,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "34": {
     "identifier":"nidoking",
-    "generation_id":1,
-    "evolves_from_pokemon_id":33,
-    "evolution_chain_id":13,
-    "color_id":7,
-    "shape_id":6,
-    "habitat_id":3,
-    "gender_rate":0,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 33,
+    evolvesChainId: 13,
+    colorId: 7,
+    shapeId: 6,
+    habitatId: 3,
+    genderRate: 0,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "35": {
     "identifier":"clefairy",
-    "generation_id":1,
-    "evolves_from_pokemon_id":173,
-    "evolution_chain_id":14,
-    "color_id":6,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":6,
-    "capture_rate":150,
-    "base_happiness":140,
-    "is_baby":"0",
-    "hatch_counter":10,
-    "has_gender_differences":"0",
-    "growth_rate_id":3,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 173,
+    evolvesChainId: 14,
+    colorId: 6,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 6,
+    captureRate: 150,
+    baseHappiness: 140,
+    isBaby: false,
+    hatchCounter: 10,
+    hasGenderDifferences: false,
+    growthRateId: 3,
+    formsSwitchable: false
   },
   "36": {
     "identifier":"clefable",
-    "generation_id":1,
-    "evolves_from_pokemon_id":35,
-    "evolution_chain_id":14,
-    "color_id":6,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":6,
-    "capture_rate":25,
-    "base_happiness":140,
-    "is_baby":"0",
-    "hatch_counter":10,
-    "has_gender_differences":"0",
-    "growth_rate_id":3,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 35,
+    evolvesChainId: 14,
+    colorId: 6,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 6,
+    captureRate: 25,
+    baseHappiness: 140,
+    isBaby: false,
+    hatchCounter: 10,
+    hasGenderDifferences: false,
+    growthRateId: 3,
+    formsSwitchable: false
   },
   "37": {
     "identifier":"vulpix",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":15,
-    "color_id":3,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":6,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 15,
+    colorId: 3,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 6,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "38": {
     "identifier":"ninetales",
-    "generation_id":1,
-    "evolves_from_pokemon_id":37,
-    "evolution_chain_id":15,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":6,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 37,
+    evolvesChainId: 15,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 6,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "39": {
     "identifier":"jigglypuff",
-    "generation_id":1,
-    "evolves_from_pokemon_id":174,
-    "evolution_chain_id":16,
-    "color_id":6,
-    "shape_id":12,
-    "habitat_id":3,
-    "gender_rate":6,
-    "capture_rate":170,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":10,
-    "has_gender_differences":"0",
-    "growth_rate_id":3,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 174,
+    evolvesChainId: 16,
+    colorId: 6,
+    shapeId: 12,
+    habitatId: 3,
+    genderRate: 6,
+    captureRate: 170,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 10,
+    hasGenderDifferences: false,
+    growthRateId: 3,
+    formsSwitchable: false
   },
   "40": {
     "identifier":"wigglytuff",
-    "generation_id":1,
-    "evolves_from_pokemon_id":39,
-    "evolution_chain_id":16,
-    "color_id":6,
-    "shape_id":12,
-    "habitat_id":3,
-    "gender_rate":6,
-    "capture_rate":50,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":10,
-    "has_gender_differences":"0",
-    "growth_rate_id":3,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 39,
+    evolvesChainId: 16,
+    colorId: 6,
+    shapeId: 12,
+    habitatId: 3,
+    genderRate: 6,
+    captureRate: 50,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 10,
+    hasGenderDifferences: false,
+    growthRateId: 3,
+    formsSwitchable: false
   },
   "41": {
     "identifier":"zubat",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":17,
-    "color_id":7,
-    "shape_id":9,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 17,
+    colorId: 7,
+    shapeId: 9,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "42": {
     "identifier":"golbat",
-    "generation_id":1,
-    "evolves_from_pokemon_id":41,
-    "evolution_chain_id":17,
-    "color_id":7,
-    "shape_id":9,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 41,
+    evolvesChainId: 17,
+    colorId: 7,
+    shapeId: 9,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "43": {
     "identifier":"oddish",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":18,
-    "color_id":2,
-    "shape_id":7,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 18,
+    colorId: 2,
+    shapeId: 7,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "44": {
     "identifier":"gloom",
-    "generation_id":1,
-    "evolves_from_pokemon_id":43,
-    "evolution_chain_id":18,
-    "color_id":2,
-    "shape_id":12,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 43,
+    evolvesChainId: 18,
+    colorId: 2,
+    shapeId: 12,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "45": {
     "identifier":"vileplume",
-    "generation_id":1,
-    "evolves_from_pokemon_id":44,
-    "evolution_chain_id":18,
-    "color_id":8,
-    "shape_id":12,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 44,
+    evolvesChainId: 18,
+    colorId: 8,
+    shapeId: 12,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "46": {
     "identifier":"paras",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":19,
-    "color_id":8,
-    "shape_id":14,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 19,
+    colorId: 8,
+    shapeId: 14,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "47": {
     "identifier":"parasect",
-    "generation_id":1,
-    "evolves_from_pokemon_id":46,
-    "evolution_chain_id":19,
-    "color_id":8,
-    "shape_id":14,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 46,
+    evolvesChainId: 19,
+    colorId: 8,
+    shapeId: 14,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "48": {
     "identifier":"venonat",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":20,
-    "color_id":7,
-    "shape_id":12,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 20,
+    colorId: 7,
+    shapeId: 12,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "49": {
     "identifier":"venomoth",
-    "generation_id":1,
-    "evolves_from_pokemon_id":48,
-    "evolution_chain_id":20,
-    "color_id":7,
-    "shape_id":13,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 48,
+    evolvesChainId: 20,
+    colorId: 7,
+    shapeId: 13,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "50": {
     "identifier":"diglett",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":21,
-    "color_id":3,
-    "shape_id":5,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 21,
+    colorId: 3,
+    shapeId: 5,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "51": {
     "identifier":"dugtrio",
-    "generation_id":1,
-    "evolves_from_pokemon_id":50,
-    "evolution_chain_id":21,
-    "color_id":3,
-    "shape_id":11,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":50,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 50,
+    evolvesChainId: 21,
+    colorId: 3,
+    shapeId: 11,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 50,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "52": {
     "identifier":"meowth",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":22,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 22,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "53": {
     "identifier":"persian",
-    "generation_id":1,
-    "evolves_from_pokemon_id":52,
-    "evolution_chain_id":22,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 52,
+    evolvesChainId: 22,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "54": {
     "identifier":"psyduck",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":23,
-    "color_id":10,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 23,
+    colorId: 10,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "55": {
     "identifier":"golduck",
-    "generation_id":1,
-    "evolves_from_pokemon_id":54,
-    "evolution_chain_id":23,
-    "color_id":2,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 54,
+    evolvesChainId: 23,
+    colorId: 2,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "56": {
     "identifier":"mankey",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":24,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 24,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "57": {
     "identifier":"primeape",
-    "generation_id":1,
-    "evolves_from_pokemon_id":56,
-    "evolution_chain_id":24,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 56,
+    evolvesChainId: 24,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "58": {
     "identifier":"growlithe",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":25,
-    "color_id":3,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":2,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 25,
+    colorId: 3,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 2,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "59": {
     "identifier":"arcanine",
-    "generation_id":1,
-    "evolves_from_pokemon_id":58,
-    "evolution_chain_id":25,
-    "color_id":3,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":2,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 58,
+    evolvesChainId: 25,
+    colorId: 3,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 2,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "60": {
     "identifier":"poliwag",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":26,
-    "color_id":2,
-    "shape_id":7,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 26,
+    colorId: 2,
+    shapeId: 7,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "61": {
     "identifier":"poliwhirl",
-    "generation_id":1,
-    "evolves_from_pokemon_id":60,
-    "evolution_chain_id":26,
-    "color_id":2,
-    "shape_id":12,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 60,
+    evolvesChainId: 26,
+    colorId: 2,
+    shapeId: 12,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "62": {
     "identifier":"poliwrath",
-    "generation_id":1,
-    "evolves_from_pokemon_id":61,
-    "evolution_chain_id":26,
-    "color_id":2,
-    "shape_id":12,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 61,
+    evolvesChainId: 26,
+    colorId: 2,
+    shapeId: 12,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "63": {
     "identifier":"abra",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":27,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":8,
-    "gender_rate":2,
-    "capture_rate":200,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 27,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 8,
+    genderRate: 2,
+    captureRate: 200,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "64": {
     "identifier":"kadabra",
-    "generation_id":1,
-    "evolves_from_pokemon_id":63,
-    "evolution_chain_id":27,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":8,
-    "gender_rate":2,
-    "capture_rate":100,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 63,
+    evolvesChainId: 27,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 8,
+    genderRate: 2,
+    captureRate: 100,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "65": {
     "identifier":"alakazam",
-    "generation_id":1,
-    "evolves_from_pokemon_id":64,
-    "evolution_chain_id":27,
-    "color_id":3,
-    "shape_id":12,
-    "habitat_id":8,
-    "gender_rate":2,
-    "capture_rate":50,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":4,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: 64,
+    evolvesChainId: 27,
+    colorId: 3,
+    shapeId: 12,
+    habitatId: 8,
+    genderRate: 2,
+    captureRate: 50,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 4,
+    formsSwitchable: true
   },
   "66": {
     "identifier":"machop",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":28,
-    "color_id":4,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":2,
-    "capture_rate":180,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 28,
+    colorId: 4,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 2,
+    captureRate: 180,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "67": {
     "identifier":"machoke",
-    "generation_id":1,
-    "evolves_from_pokemon_id":66,
-    "evolution_chain_id":28,
-    "color_id":4,
-    "shape_id":12,
-    "habitat_id":4,
-    "gender_rate":2,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 66,
+    evolvesChainId: 28,
+    colorId: 4,
+    shapeId: 12,
+    habitatId: 4,
+    genderRate: 2,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "68": {
     "identifier":"machamp",
-    "generation_id":1,
-    "evolves_from_pokemon_id":67,
-    "evolution_chain_id":28,
-    "color_id":4,
-    "shape_id":12,
-    "habitat_id":4,
-    "gender_rate":2,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 67,
+    evolvesChainId: 28,
+    colorId: 4,
+    shapeId: 12,
+    habitatId: 4,
+    genderRate: 2,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "69": {
     "identifier":"bellsprout",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":29,
-    "color_id":5,
-    "shape_id":12,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 29,
+    colorId: 5,
+    shapeId: 12,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "70": {
     "identifier":"weepinbell",
-    "generation_id":1,
-    "evolves_from_pokemon_id":69,
-    "evolution_chain_id":29,
-    "color_id":5,
-    "shape_id":5,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 69,
+    evolvesChainId: 29,
+    colorId: 5,
+    shapeId: 5,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "71": {
     "identifier":"victreebel",
-    "generation_id":1,
-    "evolves_from_pokemon_id":70,
-    "evolution_chain_id":29,
-    "color_id":5,
-    "shape_id":5,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 70,
+    evolvesChainId: 29,
+    colorId: 5,
+    shapeId: 5,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "72": {
     "identifier":"tentacool",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":30,
-    "color_id":2,
-    "shape_id":10,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 30,
+    colorId: 2,
+    shapeId: 10,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "73": {
     "identifier":"tentacruel",
-    "generation_id":1,
-    "evolves_from_pokemon_id":72,
-    "evolution_chain_id":30,
-    "color_id":2,
-    "shape_id":10,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 72,
+    evolvesChainId: 30,
+    colorId: 2,
+    shapeId: 10,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "74": {
     "identifier":"geodude",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":31,
-    "color_id":3,
-    "shape_id":4,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 31,
+    colorId: 3,
+    shapeId: 4,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "75": {
     "identifier":"graveler",
-    "generation_id":1,
-    "evolves_from_pokemon_id":74,
-    "evolution_chain_id":31,
-    "color_id":3,
-    "shape_id":12,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 74,
+    evolvesChainId: 31,
+    colorId: 3,
+    shapeId: 12,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "76": {
     "identifier":"golem",
-    "generation_id":1,
-    "evolves_from_pokemon_id":75,
-    "evolution_chain_id":31,
-    "color_id":3,
-    "shape_id":12,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":15,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 75,
+    evolvesChainId: 31,
+    colorId: 3,
+    shapeId: 12,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 15,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "77": {
     "identifier":"ponyta",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":32,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 32,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "78": {
     "identifier":"rapidash",
-    "generation_id":1,
-    "evolves_from_pokemon_id":77,
-    "evolution_chain_id":32,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 77,
+    evolvesChainId: 32,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "79": {
     "identifier":"slowpoke",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":33,
-    "color_id":6,
-    "shape_id":8,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 33,
+    colorId: 6,
+    shapeId: 8,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "80": {
     "identifier":"slowbro",
-    "generation_id":1,
-    "evolves_from_pokemon_id":79,
-    "evolution_chain_id":33,
-    "color_id":6,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 79,
+    evolvesChainId: 33,
+    colorId: 6,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "81": {
     "identifier":"magnemite",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":34,
-    "color_id":4,
-    "shape_id":4,
-    "habitat_id":6,
-    "gender_rate":-1,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 34,
+    colorId: 4,
+    shapeId: 4,
+    habitatId: 6,
+    genderRate: -1,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "82": {
     "identifier":"magneton",
-    "generation_id":1,
-    "evolves_from_pokemon_id":81,
-    "evolution_chain_id":34,
-    "color_id":4,
-    "shape_id":11,
-    "habitat_id":6,
-    "gender_rate":-1,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 81,
+    evolvesChainId: 34,
+    colorId: 4,
+    shapeId: 11,
+    habitatId: 6,
+    genderRate: -1,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "83": {
     "identifier":"farfetchd",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":35,
-    "color_id":3,
-    "shape_id":9,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 35,
+    colorId: 3,
+    shapeId: 9,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "84": {
     "identifier":"doduo",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":36,
-    "color_id":3,
-    "shape_id":7,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 36,
+    colorId: 3,
+    shapeId: 7,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "85": {
     "identifier":"dodrio",
-    "generation_id":1,
-    "evolves_from_pokemon_id":84,
-    "evolution_chain_id":36,
-    "color_id":3,
-    "shape_id":7,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 84,
+    evolvesChainId: 36,
+    colorId: 3,
+    shapeId: 7,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "86": {
     "identifier":"seel",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":37,
-    "color_id":9,
-    "shape_id":3,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 37,
+    colorId: 9,
+    shapeId: 3,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "87": {
     "identifier":"dewgong",
-    "generation_id":1,
-    "evolves_from_pokemon_id":86,
-    "evolution_chain_id":37,
-    "color_id":9,
-    "shape_id":3,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 86,
+    evolvesChainId: 37,
+    colorId: 9,
+    shapeId: 3,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "88": {
     "identifier":"grimer",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":38,
-    "color_id":7,
-    "shape_id":4,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 38,
+    colorId: 7,
+    shapeId: 4,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "89": {
     "identifier":"muk",
-    "generation_id":1,
-    "evolves_from_pokemon_id":88,
-    "evolution_chain_id":38,
-    "color_id":7,
-    "shape_id":4,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 88,
+    evolvesChainId: 38,
+    colorId: 7,
+    shapeId: 4,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "90": {
     "identifier":"shellder",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":39,
-    "color_id":7,
-    "shape_id":1,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 39,
+    colorId: 7,
+    shapeId: 1,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "91": {
     "identifier":"cloyster",
-    "generation_id":1,
-    "evolves_from_pokemon_id":90,
-    "evolution_chain_id":39,
-    "color_id":7,
-    "shape_id":1,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 90,
+    evolvesChainId: 39,
+    colorId: 7,
+    shapeId: 1,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "92": {
     "identifier":"gastly",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":40,
-    "color_id":7,
-    "shape_id":1,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 40,
+    colorId: 7,
+    shapeId: 1,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "93": {
     "identifier":"haunter",
-    "generation_id":1,
-    "evolves_from_pokemon_id":92,
-    "evolution_chain_id":40,
-    "color_id":7,
-    "shape_id":4,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 92,
+    evolvesChainId: 40,
+    colorId: 7,
+    shapeId: 4,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
   "94": {
     "identifier":"gengar",
-    "generation_id":1,
-    "evolves_from_pokemon_id":93,
-    "evolution_chain_id":40,
-    "color_id":7,
-    "shape_id":6,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: 93,
+    evolvesChainId: 40,
+    colorId: 7,
+    shapeId: 6,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: true
   },
   "95": {
     "identifier":"onix",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":41,
-    "color_id":4,
-    "shape_id":2,
-    "habitat_id":1,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 41,
+    colorId: 4,
+    shapeId: 2,
+    habitatId: 1,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "96": {
     "identifier":"drowzee",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":42,
-    "color_id":10,
-    "shape_id":12,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 42,
+    colorId: 10,
+    shapeId: 12,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "97": {
     "identifier":"hypno",
-    "generation_id":1,
-    "evolves_from_pokemon_id":96,
-    "evolution_chain_id":42,
-    "color_id":10,
-    "shape_id":12,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 96,
+    evolvesChainId: 42,
+    colorId: 10,
+    shapeId: 12,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "98": {
     "identifier":"krabby",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":43,
-    "color_id":8,
-    "shape_id":14,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":225,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 43,
+    colorId: 8,
+    shapeId: 14,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 225,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "99": {
     "identifier":"kingler",
-    "generation_id":1,
-    "evolves_from_pokemon_id":98,
-    "evolution_chain_id":43,
-    "color_id":8,
-    "shape_id":14,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 98,
+    evolvesChainId: 43,
+    colorId: 8,
+    shapeId: 14,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "100": {
     "identifier":"voltorb",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":44,
-    "color_id":8,
-    "shape_id":1,
-    "habitat_id":8,
-    "gender_rate":-1,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 44,
+    colorId: 8,
+    shapeId: 1,
+    habitatId: 8,
+    genderRate: -1,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "101": {
     "identifier":"electrode",
-    "generation_id":1,
-    "evolves_from_pokemon_id":100,
-    "evolution_chain_id":44,
-    "color_id":8,
-    "shape_id":1,
-    "habitat_id":8,
-    "gender_rate":-1,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 100,
+    evolvesChainId: 44,
+    colorId: 8,
+    shapeId: 1,
+    habitatId: 8,
+    genderRate: -1,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "102": {
     "identifier":"exeggcute",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":45,
-    "color_id":6,
-    "shape_id":11,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":90,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 45,
+    colorId: 6,
+    shapeId: 11,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 90,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "103": {
     "identifier":"exeggutor",
-    "generation_id":1,
-    "evolves_from_pokemon_id":102,
-    "evolution_chain_id":45,
-    "color_id":10,
-    "shape_id":7,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 102,
+    evolvesChainId: 45,
+    colorId: 10,
+    shapeId: 7,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "104": {
     "identifier":"cubone",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":46,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 46,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "105": {
     "identifier":"marowak",
-    "generation_id":1,
-    "evolves_from_pokemon_id":104,
-    "evolution_chain_id":46,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 104,
+    evolvesChainId: 46,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "106": {
     "identifier":"hitmonlee",
-    "generation_id":1,
-    "evolves_from_pokemon_id":236,
-    "evolution_chain_id":47,
-    "color_id":3,
-    "shape_id":12,
-    "habitat_id":8,
-    "gender_rate":0,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 236,
+    evolvesChainId: 47,
+    colorId: 3,
+    shapeId: 12,
+    habitatId: 8,
+    genderRate: 0,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "107": {
     "identifier":"hitmonchan",
-    "generation_id":1,
-    "evolves_from_pokemon_id":236,
-    "evolution_chain_id":47,
-    "color_id":3,
-    "shape_id":12,
-    "habitat_id":8,
-    "gender_rate":0,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 236,
+    evolvesChainId: 47,
+    colorId: 3,
+    shapeId: 12,
+    habitatId: 8,
+    genderRate: 0,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "108": {
     "identifier":"lickitung",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":48,
-    "color_id":6,
-    "shape_id":6,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 48,
+    colorId: 6,
+    shapeId: 6,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "109": {
     "identifier":"koffing",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":49,
-    "color_id":7,
-    "shape_id":1,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":190,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 49,
+    colorId: 7,
+    shapeId: 1,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 190,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "110": {
     "identifier":"weezing",
-    "generation_id":1,
-    "evolves_from_pokemon_id":109,
-    "evolution_chain_id":49,
-    "color_id":7,
-    "shape_id":11,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 109,
+    evolvesChainId: 49,
+    colorId: 7,
+    shapeId: 11,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "111": {
     "identifier":"rhyhorn",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":50,
-    "color_id":4,
-    "shape_id":8,
-    "habitat_id":6,
-    "gender_rate":4,
-    "capture_rate":120,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 50,
+    colorId: 4,
+    shapeId: 8,
+    habitatId: 6,
+    genderRate: 4,
+    captureRate: 120,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "112": {
     "identifier":"rhydon",
-    "generation_id":1,
-    "evolves_from_pokemon_id":111,
-    "evolution_chain_id":50,
-    "color_id":4,
-    "shape_id":6,
-    "habitat_id":6,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 111,
+    evolvesChainId: 50,
+    colorId: 4,
+    shapeId: 6,
+    habitatId: 6,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "113": {
     "identifier":"chansey",
-    "generation_id":1,
-    "evolves_from_pokemon_id":440,
-    "evolution_chain_id":51,
-    "color_id":6,
-    "shape_id":6,
-    "habitat_id":8,
-    "gender_rate":8,
-    "capture_rate":30,
-    "base_happiness":140,
-    "is_baby":"0",
-    "hatch_counter":40,
-    "has_gender_differences":"0",
-    "growth_rate_id":3,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 440,
+    evolvesChainId: 51,
+    colorId: 6,
+    shapeId: 6,
+    habitatId: 8,
+    genderRate: 8,
+    captureRate: 30,
+    baseHappiness: 140,
+    isBaby: false,
+    hatchCounter: 40,
+    hasGenderDifferences: false,
+    growthRateId: 3,
+    formsSwitchable: false
   },
   "114": {
     "identifier":"tangela",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":52,
-    "color_id":2,
-    "shape_id":7,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 52,
+    colorId: 2,
+    shapeId: 7,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "115": {
     "identifier":"kangaskhan",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":53,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":3,
-    "gender_rate":8,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 53,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 3,
+    genderRate: 8,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: true
   },
   "116": {
     "identifier":"horsea",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":54,
-    "color_id":2,
-    "shape_id":5,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":225,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 54,
+    colorId: 2,
+    shapeId: 5,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 225,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "117": {
     "identifier":"seadra",
-    "generation_id":1,
-    "evolves_from_pokemon_id":116,
-    "evolution_chain_id":54,
-    "color_id":2,
-    "shape_id":5,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":75,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 116,
+    evolvesChainId: 54,
+    colorId: 2,
+    shapeId: 5,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 75,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "118": {
     "identifier":"goldeen",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":55,
-    "color_id":8,
-    "shape_id":3,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":225,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 55,
+    colorId: 8,
+    shapeId: 3,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 225,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "119": {
     "identifier":"seaking",
-    "generation_id":1,
-    "evolves_from_pokemon_id":118,
-    "evolution_chain_id":55,
-    "color_id":8,
-    "shape_id":3,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 118,
+    evolvesChainId: 55,
+    colorId: 8,
+    shapeId: 3,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "120": {
     "identifier":"staryu",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":56,
-    "color_id":3,
-    "shape_id":5,
-    "habitat_id":7,
-    "gender_rate":-1,
-    "capture_rate":225,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 56,
+    colorId: 3,
+    shapeId: 5,
+    habitatId: 7,
+    genderRate: -1,
+    captureRate: 225,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "121": {
     "identifier":"starmie",
-    "generation_id":1,
-    "evolves_from_pokemon_id":120,
-    "evolution_chain_id":56,
-    "color_id":7,
-    "shape_id":5,
-    "habitat_id":7,
-    "gender_rate":-1,
-    "capture_rate":60,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 120,
+    evolvesChainId: 56,
+    colorId: 7,
+    shapeId: 5,
+    habitatId: 7,
+    genderRate: -1,
+    captureRate: 60,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "122": {
     "identifier":"mr-mime",
-    "generation_id":1,
-    "evolves_from_pokemon_id":439,
-    "evolution_chain_id":57,
-    "color_id":6,
-    "shape_id":12,
-    "habitat_id":8,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 439,
+    evolvesChainId: 57,
+    colorId: 6,
+    shapeId: 12,
+    habitatId: 8,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "123": {
     "identifier":"scyther",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":58,
-    "color_id":5,
-    "shape_id":13,
-    "habitat_id":3,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"1",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 58,
+    colorId: 5,
+    shapeId: 13,
+    habitatId: 3,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: true,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "124": {
     "identifier":"jynx",
-    "generation_id":1,
-    "evolves_from_pokemon_id":238,
-    "evolution_chain_id":59,
-    "color_id":8,
-    "shape_id":12,
-    "habitat_id":8,
-    "gender_rate":8,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 238,
+    evolvesChainId: 59,
+    colorId: 8,
+    shapeId: 12,
+    habitatId: 8,
+    genderRate: 8,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "125": {
     "identifier":"electabuzz",
-    "generation_id":1,
-    "evolves_from_pokemon_id":239,
-    "evolution_chain_id":60,
-    "color_id":10,
-    "shape_id":6,
-    "habitat_id":3,
-    "gender_rate":2,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 239,
+    evolvesChainId: 60,
+    colorId: 10,
+    shapeId: 6,
+    habitatId: 3,
+    genderRate: 2,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "126": {
     "identifier":"magmar",
-    "generation_id":1,
-    "evolves_from_pokemon_id":240,
-    "evolution_chain_id":61,
-    "color_id":8,
-    "shape_id":6,
-    "habitat_id":4,
-    "gender_rate":2,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 240,
+    evolvesChainId: 61,
+    colorId: 8,
+    shapeId: 6,
+    habitatId: 4,
+    genderRate: 2,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "127": {
     "identifier":"pinsir",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":62,
-    "color_id":3,
-    "shape_id":12,
-    "habitat_id":2,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":25,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 62,
+    colorId: 3,
+    shapeId: 12,
+    habitatId: 2,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 25,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: true
   },
   "128": {
     "identifier":"tauros",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":63,
-    "color_id":3,
-    "shape_id":8,
-    "habitat_id":3,
-    "gender_rate":0,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 63,
+    colorId: 3,
+    shapeId: 8,
+    habitatId: 3,
+    genderRate: 0,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "129": {
     "identifier":"magikarp",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":64,
-    "color_id":8,
-    "shape_id":3,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":255,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":5,
-    "has_gender_differences":"1",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 64,
+    colorId: 8,
+    shapeId: 3,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 255,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 5,
+    hasGenderDifferences: true,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "130": {
     "identifier":"gyarados",
-    "generation_id":1,
-    "evolves_from_pokemon_id":129,
-    "evolution_chain_id":64,
-    "color_id":2,
-    "shape_id":2,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":5,
-    "has_gender_differences":"1",
-    "growth_rate_id":1,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: 129,
+    evolvesChainId: 64,
+    colorId: 2,
+    shapeId: 2,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 5,
+    hasGenderDifferences: true,
+    growthRateId: 1,
+    formsSwitchable: true
   },
   "131": {
     "identifier":"lapras",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":65,
-    "color_id":2,
-    "shape_id":3,
-    "habitat_id":7,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":40,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 65,
+    colorId: 2,
+    shapeId: 3,
+    habitatId: 7,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 40,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "132": {
     "identifier":"ditto",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":66,
-    "color_id":7,
-    "shape_id":1,
-    "habitat_id":8,
-    "gender_rate":-1,
-    "capture_rate":35,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 66,
+    colorId: 7,
+    shapeId: 1,
+    habitatId: 8,
+    genderRate: -1,
+    captureRate: 35,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "133": {
     "identifier":"eevee",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":67,
-    "color_id":3,
-    "shape_id":8,
-    "habitat_id":8,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":35,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 67,
+    colorId: 3,
+    shapeId: 8,
+    habitatId: 8,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 35,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "134": {
     "identifier":"vaporeon",
-    "generation_id":1,
-    "evolves_from_pokemon_id":133,
-    "evolution_chain_id":67,
-    "color_id":2,
-    "shape_id":8,
-    "habitat_id":8,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":35,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 133,
+    evolvesChainId: 67,
+    colorId: 2,
+    shapeId: 8,
+    habitatId: 8,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 35,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "135": {
     "identifier":"jolteon",
-    "generation_id":1,
-    "evolves_from_pokemon_id":133,
-    "evolution_chain_id":67,
-    "color_id":10,
-    "shape_id":8,
-    "habitat_id":8,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":35,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 133,
+    evolvesChainId: 67,
+    colorId: 10,
+    shapeId: 8,
+    habitatId: 8,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 35,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "136": {
     "identifier":"flareon",
-    "generation_id":1,
-    "evolves_from_pokemon_id":133,
-    "evolution_chain_id":67,
-    "color_id":8,
-    "shape_id":8,
-    "habitat_id":8,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":35,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 133,
+    evolvesChainId: 67,
+    colorId: 8,
+    shapeId: 8,
+    habitatId: 8,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 35,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "137": {
     "identifier":"porygon",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":68,
-    "color_id":6,
-    "shape_id":7,
-    "habitat_id":8,
-    "gender_rate":-1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":20,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 68,
+    colorId: 6,
+    shapeId: 7,
+    habitatId: 8,
+    genderRate: -1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 20,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "138": {
     "identifier":"omanyte",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":69,
-    "color_id":2,
-    "shape_id":10,
-    "habitat_id":7,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":30,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 69,
+    colorId: 2,
+    shapeId: 10,
+    habitatId: 7,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 30,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "139": {
     "identifier":"omastar",
-    "generation_id":1,
-    "evolves_from_pokemon_id":138,
-    "evolution_chain_id":69,
-    "color_id":2,
-    "shape_id":10,
-    "habitat_id":7,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":30,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 138,
+    evolvesChainId: 69,
+    colorId: 2,
+    shapeId: 10,
+    habitatId: 7,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 30,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "140": {
     "identifier":"kabuto",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":70,
-    "color_id":3,
-    "shape_id":14,
-    "habitat_id":7,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":30,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 70,
+    colorId: 3,
+    shapeId: 14,
+    habitatId: 7,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 30,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "141": {
     "identifier":"kabutops",
-    "generation_id":1,
-    "evolves_from_pokemon_id":140,
-    "evolution_chain_id":70,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":7,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":30,
-    "has_gender_differences":"0",
-    "growth_rate_id":2,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 140,
+    evolvesChainId: 70,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 7,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 30,
+    hasGenderDifferences: false,
+    growthRateId: 2,
+    formsSwitchable: false
   },
   "142": {
     "identifier":"aerodactyl",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":71,
-    "color_id":7,
-    "shape_id":9,
-    "habitat_id":4,
-    "gender_rate":1,
-    "capture_rate":45,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":35,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 71,
+    colorId: 7,
+    shapeId: 9,
+    habitatId: 4,
+    genderRate: 1,
+    captureRate: 45,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 35,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: true
   },
   "143": {
     "identifier":"snorlax",
-    "generation_id":1,
-    "evolves_from_pokemon_id":446,
-    "evolution_chain_id":72,
-    "color_id":1,
-    "shape_id":12,
-    "habitat_id":4,
-    "gender_rate":1,
-    "capture_rate":25,
-    "base_happiness":70,
-    "is_baby":"0",
-    "hatch_counter":40,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 446,
+    evolvesChainId: 72,
+    colorId: 1,
+    shapeId: 12,
+    habitatId: 4,
+    genderRate: 1,
+    captureRate: 25,
+    baseHappiness: 70,
+    isBaby: false,
+    hatchCounter: 40,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "144": {
     "identifier":"articuno",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":73,
-    "color_id":2,
-    "shape_id":9,
-    "habitat_id":5,
-    "gender_rate":-1,
-    "capture_rate":3,
-    "base_happiness":35,
-    "is_baby":"0",
-    "hatch_counter":80,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 73,
+    colorId: 2,
+    shapeId: 9,
+    habitatId: 5,
+    genderRate: -1,
+    captureRate: 3,
+    baseHappiness: 35,
+    isBaby: false,
+    hatchCounter: 80,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "145": {
     "identifier":"zapdos",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":74,
-    "color_id":10,
-    "shape_id":9,
-    "habitat_id":5,
-    "gender_rate":-1,
-    "capture_rate":3,
-    "base_happiness":35,
-    "is_baby":"0",
-    "hatch_counter":80,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 74,
+    colorId: 10,
+    shapeId: 9,
+    habitatId: 5,
+    genderRate: -1,
+    captureRate: 3,
+    baseHappiness: 35,
+    isBaby: false,
+    hatchCounter: 80,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "146": {
     "identifier":"moltres",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":75,
-    "color_id":10,
-    "shape_id":9,
-    "habitat_id":5,
-    "gender_rate":-1,
-    "capture_rate":3,
-    "base_happiness":35,
-    "is_baby":"0",
-    "hatch_counter":80,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 75,
+    colorId: 10,
+    shapeId: 9,
+    habitatId: 5,
+    genderRate: -1,
+    captureRate: 3,
+    baseHappiness: 35,
+    isBaby: false,
+    hatchCounter: 80,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "147": {
     "identifier":"dratini",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":76,
-    "color_id":2,
-    "shape_id":2,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":35,
-    "is_baby":"0",
-    "hatch_counter":40,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 76,
+    colorId: 2,
+    shapeId: 2,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 35,
+    isBaby: false,
+    hatchCounter: 40,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "148": {
     "identifier":"dragonair",
-    "generation_id":1,
-    "evolves_from_pokemon_id":147,
-    "evolution_chain_id":76,
-    "color_id":2,
-    "shape_id":2,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":35,
-    "is_baby":"0",
-    "hatch_counter":40,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 147,
+    evolvesChainId: 76,
+    colorId: 2,
+    shapeId: 2,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 35,
+    isBaby: false,
+    hatchCounter: 40,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "149": {
     "identifier":"dragonite",
-    "generation_id":1,
-    "evolves_from_pokemon_id":148,
-    "evolution_chain_id":76,
-    "color_id":3,
-    "shape_id":6,
-    "habitat_id":9,
-    "gender_rate":4,
-    "capture_rate":45,
-    "base_happiness":35,
-    "is_baby":"0",
-    "hatch_counter":40,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: 148,
+    evolvesChainId: 76,
+    colorId: 3,
+    shapeId: 6,
+    habitatId: 9,
+    genderRate: 4,
+    captureRate: 45,
+    baseHappiness: 35,
+    isBaby: false,
+    hatchCounter: 40,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: false
   },
   "150": {
     "identifier":"mewtwo",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":77,
-    "color_id":7,
-    "shape_id":6,
-    "habitat_id":5,
-    "gender_rate":-1,
-    "capture_rate":3,
-    "base_happiness":0,
-    "is_baby":"0",
-    "hatch_counter":120,
-    "has_gender_differences":"0",
-    "growth_rate_id":1,
-    "forms_switchable":"1"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 77,
+    colorId: 7,
+    shapeId: 6,
+    habitatId: 5,
+    genderRate: -1,
+    captureRate: 3,
+    baseHappiness: 0,
+    isBaby: false,
+    hatchCounter: 120,
+    hasGenderDifferences: false,
+    growthRateId: 1,
+    formsSwitchable: true
   },
   "151": {
     "identifier":"mew",
-    "generation_id":1,
-    "evolves_from_pokemon_id":null,
-    "evolution_chain_id":78,
-    "color_id":6,
-    "shape_id":6,
-    "habitat_id":5,
-    "gender_rate":-1,
-    "capture_rate":45,
-    "base_happiness":100,
-    "is_baby":"0",
-    "hatch_counter":120,
-    "has_gender_differences":"0",
-    "growth_rate_id":4,
-    "forms_switchable":"0"
+    evolvesFromPokemonId: null,
+    evolvesChainId: 78,
+    colorId: 6,
+    shapeId: 6,
+    habitatId: 5,
+    genderRate: -1,
+    captureRate: 45,
+    baseHappiness: 100,
+    isBaby: false,
+    hatchCounter: 120,
+    hasGenderDifferences: false,
+    growthRateId: 4,
+    formsSwitchable: false
   },
 };
 
@@ -3179,757 +3028,757 @@ const pokemons = {
   "1": {
     "height":7,
     "weight":69,
-    "base_experience":64
+    baseExperience: 64
   },
   "2": {
     "height":10,
     "weight":130,
-    "base_experience":142
+    baseExperience: 142
   },
   "3": {
     "height":20,
     "weight":1000,
-    "base_experience":236
+    baseExperience: 236
   },
   "4": {
     "height":6,
     "weight":85,
-    "base_experience":62
+    baseExperience: 62
   },
   "5": {
     "height":11,
     "weight":190,
-    "base_experience":142
+    baseExperience: 142
   },
   "6": {
     "height":17,
     "weight":905,
-    "base_experience":240
+    baseExperience: 240
   },
   "7": {
     "height":5,
     "weight":90,
-    "base_experience":63
+    baseExperience: 63
   },
   "8": {
     "height":10,
     "weight":225,
-    "base_experience":142
+    baseExperience: 142
   },
   "9": {
     "height":16,
     "weight":855,
-    "base_experience":239
+    baseExperience: 239
   },
   "10": {
     "height":3,
     "weight":29,
-    "base_experience":39
+    baseExperience: 39
   },
   "11": {
     "height":7,
     "weight":99,
-    "base_experience":72
+    baseExperience: 72
   },
   "12": {
     "height":11,
     "weight":320,
-    "base_experience":178
+    baseExperience: 178
   },
   "13": {
     "height":3,
     "weight":32,
-    "base_experience":39
+    baseExperience: 39
   },
   "14": {
     "height":6,
     "weight":100,
-    "base_experience":72
+    baseExperience: 72
   },
   "15": {
     "height":10,
     "weight":295,
-    "base_experience":178
+    baseExperience: 178
   },
   "16": {
     "height":3,
     "weight":18,
-    "base_experience":50
+    baseExperience: 50
   },
   "17": {
     "height":11,
     "weight":300,
-    "base_experience":122
+    baseExperience: 122
   },
   "18": {
     "height":15,
     "weight":395,
-    "base_experience":216
+    baseExperience: 216
   },
   "19": {
     "height":3,
     "weight":35,
-    "base_experience":51
+    baseExperience: 51
   },
   "20": {
     "height":7,
     "weight":185,
-    "base_experience":145
+    baseExperience: 145
   },
   "21": {
     "height":3,
     "weight":20,
-    "base_experience":52
+    baseExperience: 52
   },
   "22": {
     "height":12,
     "weight":380,
-    "base_experience":155
+    baseExperience: 155
   },
   "23": {
     "height":20,
     "weight":69,
-    "base_experience":58
+    baseExperience: 58
   },
   "24": {
     "height":35,
     "weight":650,
-    "base_experience":153
+    baseExperience: 153
   },
   "25": {
     "height":4,
     "weight":60,
-    "base_experience":112
+    baseExperience: 112
   },
   "26": {
     "height":8,
     "weight":300,
-    "base_experience":218
+    baseExperience: 218
   },
   "27": {
     "height":6,
     "weight":120,
-    "base_experience":60
+    baseExperience: 60
   },
   "28": {
     "height":10,
     "weight":295,
-    "base_experience":158
+    baseExperience: 158
   },
   "29": {
     "height":4,
     "weight":70,
-    "base_experience":55
+    baseExperience: 55
   },
   "30": {
     "height":8,
     "weight":200,
-    "base_experience":128
+    baseExperience: 128
   },
   "31": {
     "height":13,
     "weight":600,
-    "base_experience":227
+    baseExperience: 227
   },
   "32": {
     "height":5,
     "weight":90,
-    "base_experience":55
+    baseExperience: 55
   },
   "33": {
     "height":9,
     "weight":195,
-    "base_experience":128
+    baseExperience: 128
   },
   "34": {
     "height":14,
     "weight":620,
-    "base_experience":227
+    baseExperience: 227
   },
   "35": {
     "height":6,
     "weight":75,
-    "base_experience":113
+    baseExperience: 113
   },
   "36": {
     "height":13,
     "weight":400,
-    "base_experience":217
+    baseExperience: 217
   },
   "37": {
     "height":6,
     "weight":99,
-    "base_experience":60
+    baseExperience: 60
   },
   "38": {
     "height":11,
     "weight":199,
-    "base_experience":177
+    baseExperience: 177
   },
   "39": {
     "height":5,
     "weight":55,
-    "base_experience":95
+    baseExperience: 95
   },
   "40": {
     "height":10,
     "weight":120,
-    "base_experience":196
+    baseExperience: 196
   },
   "41": {
     "height":8,
     "weight":75,
-    "base_experience":49
+    baseExperience: 49
   },
   "42": {
     "height":16,
     "weight":550,
-    "base_experience":159
+    baseExperience: 159
   },
   "43": {
     "height":5,
     "weight":54,
-    "base_experience":64
+    baseExperience: 64
   },
   "44": {
     "height":8,
     "weight":86,
-    "base_experience":138
+    baseExperience: 138
   },
   "45": {
     "height":12,
     "weight":186,
-    "base_experience":221
+    baseExperience: 221
   },
   "46": {
     "height":3,
     "weight":54,
-    "base_experience":57
+    baseExperience: 57
   },
   "47": {
     "height":10,
     "weight":295,
-    "base_experience":142
+    baseExperience: 142
   },
   "48": {
     "height":10,
     "weight":300,
-    "base_experience":61
+    baseExperience: 61
   },
   "49": {
     "height":15,
     "weight":125,
-    "base_experience":158
+    baseExperience: 158
   },
   "50": {
     "height":2,
     "weight":8,
-    "base_experience":53
+    baseExperience: 53
   },
   "51": {
     "height":7,
     "weight":333,
-    "base_experience":142
+    baseExperience: 142
   },
   "52": {
     "height":4,
     "weight":42,
-    "base_experience":58
+    baseExperience: 58
   },
   "53": {
     "height":10,
     "weight":320,
-    "base_experience":154
+    baseExperience: 154
   },
   "54": {
     "height":8,
     "weight":196,
-    "base_experience":64
+    baseExperience: 64
   },
   "55": {
     "height":17,
     "weight":766,
-    "base_experience":175
+    baseExperience: 175
   },
   "56": {
     "height":5,
     "weight":280,
-    "base_experience":61
+    baseExperience: 61
   },
   "57": {
     "height":10,
     "weight":320,
-    "base_experience":159
+    baseExperience: 159
   },
   "58": {
     "height":7,
     "weight":190,
-    "base_experience":70
+    baseExperience: 70
   },
   "59": {
     "height":19,
     "weight":1550,
-    "base_experience":194
+    baseExperience: 194
   },
   "60": {
     "height":6,
     "weight":124,
-    "base_experience":60
+    baseExperience: 60
   },
   "61": {
     "height":10,
     "weight":200,
-    "base_experience":135
+    baseExperience: 135
   },
   "62": {
     "height":13,
     "weight":540,
-    "base_experience":230
+    baseExperience: 230
   },
   "63": {
     "height":9,
     "weight":195,
-    "base_experience":62
+    baseExperience: 62
   },
   "64": {
     "height":13,
     "weight":565,
-    "base_experience":140
+    baseExperience: 140
   },
   "65": {
     "height":15,
     "weight":480,
-    "base_experience":225
+    baseExperience: 225
   },
   "66": {
     "height":8,
     "weight":195,
-    "base_experience":61
+    baseExperience: 61
   },
   "67": {
     "height":15,
     "weight":705,
-    "base_experience":142
+    baseExperience: 142
   },
   "68": {
     "height":16,
     "weight":1300,
-    "base_experience":227
+    baseExperience: 227
   },
   "69": {
     "height":7,
     "weight":40,
-    "base_experience":60
+    baseExperience: 60
   },
   "70": {
     "height":10,
     "weight":64,
-    "base_experience":137
+    baseExperience: 137
   },
   "71": {
     "height":17,
     "weight":155,
-    "base_experience":221
+    baseExperience: 221
   },
   "72": {
     "height":9,
     "weight":455,
-    "base_experience":67
+    baseExperience: 67
   },
   "73": {
     "height":16,
     "weight":550,
-    "base_experience":180
+    baseExperience: 180
   },
   "74": {
     "height":4,
     "weight":200,
-    "base_experience":60
+    baseExperience: 60
   },
   "75": {
     "height":10,
     "weight":1050,
-    "base_experience":137
+    baseExperience: 137
   },
   "76": {
     "height":14,
     "weight":3000,
-    "base_experience":223
+    baseExperience: 223
   },
   "77": {
     "height":10,
     "weight":300,
-    "base_experience":82
+    baseExperience: 82
   },
   "78": {
     "height":17,
     "weight":950,
-    "base_experience":175
+    baseExperience: 175
   },
   "79": {
     "height":12,
     "weight":360,
-    "base_experience":63
+    baseExperience: 63
   },
   "80": {
     "height":16,
     "weight":785,
-    "base_experience":172
+    baseExperience: 172
   },
   "81": {
     "height":3,
     "weight":60,
-    "base_experience":65
+    baseExperience: 65
   },
   "82": {
     "height":10,
     "weight":600,
-    "base_experience":163
+    baseExperience: 163
   },
   "83": {
     "height":8,
     "weight":150,
-    "base_experience":123
+    baseExperience: 123
   },
   "84": {
     "height":14,
     "weight":392,
-    "base_experience":62
+    baseExperience: 62
   },
   "85": {
     "height":18,
     "weight":852,
-    "base_experience":161
+    baseExperience: 161
   },
   "86": {
     "height":11,
     "weight":900,
-    "base_experience":65
+    baseExperience: 65
   },
   "87": {
     "height":17,
     "weight":1200,
-    "base_experience":166
+    baseExperience: 166
   },
   "88": {
     "height":9,
     "weight":300,
-    "base_experience":65
+    baseExperience: 65
   },
   "89": {
     "height":12,
     "weight":300,
-    "base_experience":175
+    baseExperience: 175
   },
   "90": {
     "height":3,
     "weight":40,
-    "base_experience":61
+    baseExperience: 61
   },
   "91": {
     "height":15,
     "weight":1325,
-    "base_experience":184
+    baseExperience: 184
   },
   "92": {
     "height":13,
     "weight":1,
-    "base_experience":62
+    baseExperience: 62
   },
   "93": {
     "height":16,
     "weight":1,
-    "base_experience":142
+    baseExperience: 142
   },
   "94": {
     "height":15,
     "weight":405,
-    "base_experience":225
+    baseExperience: 225
   },
   "95": {
     "height":88,
     "weight":2100,
-    "base_experience":77
+    baseExperience: 77
   },
   "96": {
     "height":10,
     "weight":324,
-    "base_experience":66
+    baseExperience: 66
   },
   "97": {
     "height":16,
     "weight":756,
-    "base_experience":169
+    baseExperience: 169
   },
   "98": {
     "height":4,
     "weight":65,
-    "base_experience":65
+    baseExperience: 65
   },
   "99": {
     "height":13,
     "weight":600,
-    "base_experience":166
+    baseExperience: 166
   },
   "100": {
     "height":5,
     "weight":104,
-    "base_experience":66
+    baseExperience: 66
   },
   "101": {
     "height":12,
     "weight":666,
-    "base_experience":168
+    baseExperience: 168
   },
   "102": {
     "height":4,
     "weight":25,
-    "base_experience":65
+    baseExperience: 65
   },
   "103": {
     "height":20,
     "weight":1200,
-    "base_experience":182
+    baseExperience: 182
   },
   "104": {
     "height":4,
     "weight":65,
-    "base_experience":64
+    baseExperience: 64
   },
   "105": {
     "height":10,
     "weight":450,
-    "base_experience":149
+    baseExperience: 149
   },
   "106": {
     "height":15,
     "weight":498,
-    "base_experience":159
+    baseExperience: 159
   },
   "107": {
     "height":14,
     "weight":502,
-    "base_experience":159
+    baseExperience: 159
   },
   "108": {
     "height":12,
     "weight":655,
-    "base_experience":77
+    baseExperience: 77
   },
   "109": {
     "height":6,
     "weight":10,
-    "base_experience":68
+    baseExperience: 68
   },
   "110": {
     "height":12,
     "weight":95,
-    "base_experience":172
+    baseExperience: 172
   },
   "111": {
     "height":10,
     "weight":1150,
-    "base_experience":69
+    baseExperience: 69
   },
   "112": {
     "height":19,
     "weight":1200,
-    "base_experience":170
+    baseExperience: 170
   },
   "113": {
     "height":11,
     "weight":346,
-    "base_experience":395
+    baseExperience: 395
   },
   "114": {
     "height":10,
     "weight":350,
-    "base_experience":87
+    baseExperience: 87
   },
   "115": {
     "height":22,
     "weight":800,
-    "base_experience":172
+    baseExperience: 172
   },
   "116": {
     "height":4,
     "weight":80,
-    "base_experience":59
+    baseExperience: 59
   },
   "117": {
     "height":12,
     "weight":250,
-    "base_experience":154
+    baseExperience: 154
   },
   "118": {
     "height":6,
     "weight":150,
-    "base_experience":64
+    baseExperience: 64
   },
   "119": {
     "height":13,
     "weight":390,
-    "base_experience":158
+    baseExperience: 158
   },
   "120": {
     "height":8,
     "weight":345,
-    "base_experience":68
+    baseExperience: 68
   },
   "121": {
     "height":11,
     "weight":800,
-    "base_experience":182
+    baseExperience: 182
   },
   "122": {
     "height":13,
     "weight":545,
-    "base_experience":161
+    baseExperience: 161
   },
   "123": {
     "height":15,
     "weight":560,
-    "base_experience":100
+    baseExperience: 100
   },
   "124": {
     "height":14,
     "weight":406,
-    "base_experience":159
+    baseExperience: 159
   },
   "125": {
     "height":11,
     "weight":300,
-    "base_experience":172
+    baseExperience: 172
   },
   "126": {
     "height":13,
     "weight":445,
-    "base_experience":173
+    baseExperience: 173
   },
   "127": {
     "height":15,
     "weight":550,
-    "base_experience":175
+    baseExperience: 175
   },
   "128": {
     "height":14,
     "weight":884,
-    "base_experience":172
+    baseExperience: 172
   },
   "129": {
     "height":9,
     "weight":100,
-    "base_experience":40
+    baseExperience: 40
   },
   "130": {
     "height":65,
     "weight":2350,
-    "base_experience":189
+    baseExperience: 189
   },
   "131": {
     "height":25,
     "weight":2200,
-    "base_experience":187
+    baseExperience: 187
   },
   "132": {
     "height":3,
     "weight":40,
-    "base_experience":101
+    baseExperience: 101
   },
   "133": {
     "height":3,
     "weight":65,
-    "base_experience":65
+    baseExperience: 65
   },
   "134": {
     "height":10,
     "weight":290,
-    "base_experience":184
+    baseExperience: 184
   },
   "135": {
     "height":8,
     "weight":245,
-    "base_experience":184
+    baseExperience: 184
   },
   "136": {
     "height":9,
     "weight":250,
-    "base_experience":184
+    baseExperience: 184
   },
   "137": {
     "height":8,
     "weight":365,
-    "base_experience":79
+    baseExperience: 79
   },
   "138": {
     "height":4,
     "weight":75,
-    "base_experience":71
+    baseExperience: 71
   },
   "139": {
     "height":10,
     "weight":350,
-    "base_experience":173
+    baseExperience: 173
   },
   "140": {
     "height":5,
     "weight":115,
-    "base_experience":71
+    baseExperience: 71
   },
   "141": {
     "height":13,
     "weight":405,
-    "base_experience":173
+    baseExperience: 173
   },
   "142": {
     "height":18,
     "weight":590,
-    "base_experience":180
+    baseExperience: 180
   },
   "143": {
     "height":21,
     "weight":4600,
-    "base_experience":189
+    baseExperience: 189
   },
   "144": {
     "height":17,
     "weight":554,
-    "base_experience":261
+    baseExperience: 261
   },
   "145": {
     "height":16,
     "weight":526,
-    "base_experience":261
+    baseExperience: 261
   },
   "146": {
     "height":20,
     "weight":600,
-    "base_experience":261
+    baseExperience: 261
   },
   "147": {
     "height":18,
     "weight":33,
-    "base_experience":60
+    baseExperience: 60
   },
   "148": {
     "height":40,
     "weight":165,
-    "base_experience":147
+    baseExperience: 147
   },
   "149": {
     "height":22,
     "weight":2100,
-    "base_experience":270
+    baseExperience: 270
   },
   "150": {
     "height":20,
     "weight":1220,
-    "base_experience":306
+    baseExperience: 306
   },
   "151": {
     "height":4,
     "weight":40,
-    "base_experience":270
+    baseExperience: 270
   },
 };
 
@@ -8168,123 +8017,123 @@ const moves = {
   "1": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 22,
-        "learning_methods_id": 1,
+        moveId: 22,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 73,
-        "learning_methods_id": 1,
+        moveId: 73,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 75,
-        "learning_methods_id": 1,
+        moveId: 75,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 1,
+        moveId: 76,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -8292,128 +8141,128 @@ const moves = {
   "2": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 22,
-        "learning_methods_id": 1,
+        moveId: 22,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 73,
-        "learning_methods_id": 1,
+        moveId: 73,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 73,
-        "learning_methods_id": 1,
+        moveId: 73,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 75,
-        "learning_methods_id": 1,
+        moveId: 75,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 1,
+        moveId: 76,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -8421,138 +8270,138 @@ const moves = {
   "3": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 22,
-        "learning_methods_id": 1,
+        moveId: 22,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 22,
-        "learning_methods_id": 1,
+        moveId: 22,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 73,
-        "learning_methods_id": 1,
+        moveId: 73,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 73,
-        "learning_methods_id": 1,
+        moveId: 73,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 75,
-        "learning_methods_id": 1,
+        moveId: 75,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 1,
+        moveId: 76,
+        learningMethodId: 1,
         "level": 65
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -8560,163 +8409,163 @@ const moves = {
   "4": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -8724,168 +8573,168 @@ const moves = {
   "5": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 56
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -8893,188 +8742,188 @@ const moves = {
   "6": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -9082,163 +8931,163 @@ const moves = {
   "7": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 1,
+        moveId: 130,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -9246,168 +9095,168 @@ const moves = {
   "8": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 1,
+        moveId: 130,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -9415,188 +9264,188 @@ const moves = {
   "9": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 1,
+        moveId: 130,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -9604,13 +9453,13 @@ const moves = {
   "10": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 81,
-        "learning_methods_id": 1,
+        moveId: 81,
+        learningMethodId: 1,
         "level": 1
       }
     ]
@@ -9618,8 +9467,8 @@ const moves = {
   "11": {
     "moves": [
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 1
       }
     ]
@@ -9627,138 +9476,138 @@ const moves = {
   "12": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 1,
+        moveId: 18,
+        learningMethodId: 1,
         "level": 26
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 60,
-        "learning_methods_id": 1,
+        moveId: 60,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -9766,13 +9615,13 @@ const moves = {
   "13": {
     "moves": [
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 81,
-        "learning_methods_id": 1,
+        moveId: 81,
+        learningMethodId: 1,
         "level": 1
       }
     ]
@@ -9780,8 +9629,8 @@ const moves = {
   "14": {
     "moves": [
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 1
       }
     ]
@@ -9789,118 +9638,118 @@ const moves = {
   "15": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 41,
-        "learning_methods_id": 1,
+        moveId: 41,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 42,
-        "learning_methods_id": 1,
+        moveId: 42,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -9908,113 +9757,113 @@ const moves = {
   "16": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 16,
-        "learning_methods_id": 1,
+        moveId: 16,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 17,
-        "learning_methods_id": 1,
+        moveId: 17,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 1,
+        moveId: 18,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 5
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 119,
-        "learning_methods_id": 1,
+        moveId: 119,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10022,118 +9871,118 @@ const moves = {
   "17": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 16,
-        "learning_methods_id": 1,
+        moveId: 16,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 17,
-        "learning_methods_id": 1,
+        moveId: 17,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 1,
+        moveId: 18,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 5
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 119,
-        "learning_methods_id": 1,
+        moveId: 119,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10141,128 +9990,128 @@ const moves = {
   "18": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 16,
-        "learning_methods_id": 1,
+        moveId: 16,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 17,
-        "learning_methods_id": 1,
+        moveId: 17,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 1,
+        moveId: 18,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 5
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 119,
-        "learning_methods_id": 1,
+        moveId: 119,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10270,123 +10119,123 @@ const moves = {
   "19": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 158,
-        "learning_methods_id": 1,
+        moveId: 158,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 162,
-        "learning_methods_id": 1,
+        moveId: 162,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10394,138 +10243,138 @@ const moves = {
   "20": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 158,
-        "learning_methods_id": 1,
+        moveId: 158,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 162,
-        "learning_methods_id": 1,
+        moveId: 162,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10533,108 +10382,108 @@ const moves = {
   "21": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 65,
-        "learning_methods_id": 1,
+        moveId: 65,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 119,
-        "learning_methods_id": 1,
+        moveId: 119,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10642,118 +10491,118 @@ const moves = {
   "22": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 65,
-        "learning_methods_id": 1,
+        moveId: 65,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 119,
-        "learning_methods_id": 1,
+        moveId: 119,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10761,123 +10610,123 @@ const moves = {
   "23": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 137,
-        "learning_methods_id": 1,
+        moveId: 137,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -10885,133 +10734,133 @@ const moves = {
   "24": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 137,
-        "learning_methods_id": 1,
+        moveId: 137,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11019,153 +10868,153 @@ const moves = {
   "25": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 5,
+        moveId: 57,
+        learningMethodId: 5,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 1,
+        moveId: 87,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 26
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11173,133 +11022,133 @@ const moves = {
   "26": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11307,138 +11156,138 @@ const moves = {
   "27": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11446,148 +11295,148 @@ const moves = {
   "28": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11595,118 +11444,118 @@ const moves = {
   "29": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 24,
-        "learning_methods_id": 1,
+        moveId: 24,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11714,143 +11563,143 @@ const moves = {
   "30": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 24,
-        "learning_methods_id": 1,
+        moveId: 24,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -11858,198 +11707,198 @@ const moves = {
   "31": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -12057,123 +11906,123 @@ const moves = {
   "32": {
     "moves": [
       {
-        "move_id": 24,
-        "learning_methods_id": 1,
+        moveId: 24,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 1,
+        moveId: 32,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -12181,143 +12030,143 @@ const moves = {
   "33": {
     "moves": [
       {
-        "move_id": 24,
-        "learning_methods_id": 1,
+        moveId: 24,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 1,
+        moveId: 32,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -12325,198 +12174,198 @@ const moves = {
   "34": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 8
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -12524,208 +12373,208 @@ const moves = {
   "35": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 47,
-        "learning_methods_id": 1,
+        moveId: 47,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 107,
-        "learning_methods_id": 1,
+        moveId: 107,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 1,
+        moveId: 118,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -12733,193 +12582,193 @@ const moves = {
   "36": {
     "moves": [
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 47,
-        "learning_methods_id": 1,
+        moveId: 47,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 107,
-        "learning_methods_id": 1,
+        moveId: 107,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 1,
+        moveId: 118,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -12927,113 +12776,113 @@ const moves = {
   "37": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 46,
-        "learning_methods_id": 1,
+        moveId: 46,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13041,103 +12890,103 @@ const moves = {
   "38": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 46,
-        "learning_methods_id": 1,
+        moveId: 46,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13145,203 +12994,203 @@ const moves = {
   "39": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 9
       },
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 1,
+        moveId: 38,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 47,
-        "learning_methods_id": 1,
+        moveId: 47,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 14
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 1,
+        moveId: 156,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13349,188 +13198,188 @@ const moves = {
   "40": {
     "moves": [
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 47,
-        "learning_methods_id": 1,
+        moveId: 47,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13538,98 +13387,98 @@ const moves = {
   "41": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 17,
-        "learning_methods_id": 1,
+        moveId: 17,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 114,
-        "learning_methods_id": 1,
+        moveId: 114,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13637,113 +13486,113 @@ const moves = {
   "42": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 17,
-        "learning_methods_id": 1,
+        moveId: 17,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 114,
-        "learning_methods_id": 1,
+        moveId: 114,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13751,108 +13600,108 @@ const moves = {
   "43": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 71,
-        "learning_methods_id": 1,
+        moveId: 71,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 1,
+        moveId: 76,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 80,
-        "learning_methods_id": 1,
+        moveId: 80,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13860,118 +13709,118 @@ const moves = {
   "44": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 71,
-        "learning_methods_id": 1,
+        moveId: 71,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 1,
+        moveId: 76,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 80,
-        "learning_methods_id": 1,
+        moveId: 80,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -13979,118 +13828,118 @@ const moves = {
   "45": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 80,
-        "learning_methods_id": 1,
+        moveId: 80,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14098,118 +13947,118 @@ const moves = {
   "46": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 147,
-        "learning_methods_id": 1,
+        moveId: 147,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14217,133 +14066,133 @@ const moves = {
   "47": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 147,
-        "learning_methods_id": 1,
+        moveId: 147,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14351,113 +14200,113 @@ const moves = {
   "48": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 60,
-        "learning_methods_id": 1,
+        moveId: 60,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14465,148 +14314,148 @@ const moves = {
   "49": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 60,
-        "learning_methods_id": 1,
+        moveId: 60,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 141,
-        "learning_methods_id": 1,
+        moveId: 141,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14614,103 +14463,103 @@ const moves = {
   "50": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 1,
+        moveId: 89,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 1,
+        moveId: 91,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14718,118 +14567,118 @@ const moves = {
   "51": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 1,
+        moveId: 89,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 1,
+        moveId: 91,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 1,
+        moveId: 91,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14837,123 +14686,123 @@ const moves = {
   "52": {
     "moves": [
       {
-        "move_id": 6,
-        "learning_methods_id": 1,
+        moveId: 6,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -14961,138 +14810,138 @@ const moves = {
   "53": {
     "moves": [
       {
-        "move_id": 6,
-        "learning_methods_id": 1,
+        moveId: 6,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 51
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15100,158 +14949,158 @@ const moves = {
   "54": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15259,173 +15108,173 @@ const moves = {
   "55": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 59
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15433,158 +15282,158 @@ const moves = {
   "56": {
     "moves": [
       {
-        "move_id": 2,
-        "learning_methods_id": 1,
+        moveId: 2,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 1,
+        moveId: 69,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15592,173 +15441,173 @@ const moves = {
   "57": {
     "moves": [
       {
-        "move_id": 2,
-        "learning_methods_id": 1,
+        moveId: 2,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 2,
-        "learning_methods_id": 1,
+        moveId: 2,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 1,
+        moveId: 69,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 154,
-        "learning_methods_id": 1,
+        moveId: 154,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15766,118 +15615,118 @@ const moves = {
   "58": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 46,
-        "learning_methods_id": 1,
+        moveId: 46,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15885,113 +15734,113 @@ const moves = {
   "59": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 46,
-        "learning_methods_id": 1,
+        moveId: 46,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -15999,128 +15848,128 @@ const moves = {
   "60": {
     "moves": [
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 133,
-        "learning_methods_id": 1,
+        moveId: 133,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -16128,183 +15977,183 @@ const moves = {
   "61": {
     "moves": [
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 26
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 133,
-        "learning_methods_id": 1,
+        moveId: 133,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -16312,173 +16161,173 @@ const moves = {
   "62": {
     "moves": [
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -16486,128 +16335,128 @@ const moves = {
   "63": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 1,
+        moveId: 100,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -16615,173 +16464,173 @@ const moves = {
   "64": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 60,
-        "learning_methods_id": 1,
+        moveId: 60,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 1,
+        moveId: 100,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 105,
-        "learning_methods_id": 1,
+        moveId: 105,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 1,
+        moveId: 115,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -16789,178 +16638,178 @@ const moves = {
   "65": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 60,
-        "learning_methods_id": 1,
+        moveId: 60,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 1,
+        moveId: 100,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 105,
-        "learning_methods_id": 1,
+        moveId: 105,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 1,
+        moveId: 115,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -16968,148 +16817,148 @@ const moves = {
   "66": {
     "moves": [
       {
-        "move_id": 2,
-        "learning_methods_id": 1,
+        moveId: 2,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 1,
+        moveId: 66,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 67,
-        "learning_methods_id": 1,
+        moveId: 67,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 1,
+        moveId: 69,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17117,158 +16966,158 @@ const moves = {
   "67": {
     "moves": [
       {
-        "move_id": 2,
-        "learning_methods_id": 1,
+        moveId: 2,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 1,
+        moveId: 66,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 67,
-        "learning_methods_id": 1,
+        moveId: 67,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 67,
-        "learning_methods_id": 1,
+        moveId: 67,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 1,
+        moveId: 69,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17276,163 +17125,163 @@ const moves = {
   "68": {
     "moves": [
       {
-        "move_id": 2,
-        "learning_methods_id": 1,
+        moveId: 2,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 1,
+        moveId: 66,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 67,
-        "learning_methods_id": 1,
+        moveId: 67,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 67,
-        "learning_methods_id": 1,
+        moveId: 67,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 1,
+        moveId: 69,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17440,118 +17289,118 @@ const moves = {
   "69": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 22,
-        "learning_methods_id": 1,
+        moveId: 22,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 26
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 75,
-        "learning_methods_id": 1,
+        moveId: 75,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17559,123 +17408,123 @@ const moves = {
   "70": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 22,
-        "learning_methods_id": 1,
+        moveId: 22,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 75,
-        "learning_methods_id": 1,
+        moveId: 75,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17683,118 +17532,118 @@ const moves = {
   "71": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 75,
-        "learning_methods_id": 1,
+        moveId: 75,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17802,143 +17651,143 @@ const moves = {
   "72": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 112,
-        "learning_methods_id": 1,
+        moveId: 112,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 132,
-        "learning_methods_id": 1,
+        moveId: 132,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -17946,158 +17795,158 @@ const moves = {
   "73": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 13
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 40,
-        "learning_methods_id": 1,
+        moveId: 40,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 51,
-        "learning_methods_id": 1,
+        moveId: 51,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 112,
-        "learning_methods_id": 1,
+        moveId: 112,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 132,
-        "learning_methods_id": 1,
+        moveId: 132,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -18105,153 +17954,153 @@ const moves = {
   "74": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 88,
-        "learning_methods_id": 1,
+        moveId: 88,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 1,
+        moveId: 89,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 26
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 11
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -18259,158 +18108,158 @@ const moves = {
   "75": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 88,
-        "learning_methods_id": 1,
+        moveId: 88,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 1,
+        moveId: 89,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 11
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -18418,168 +18267,168 @@ const moves = {
   "76": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 88,
-        "learning_methods_id": 1,
+        moveId: 88,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 1,
+        moveId: 89,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 11
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -18587,113 +18436,113 @@ const moves = {
   "77": {
     "moves": [
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -18701,133 +18550,133 @@ const moves = {
   "78": {
     "moves": [
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -18835,188 +18684,188 @@ const moves = {
   "79": {
     "moves": [
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 133,
-        "learning_methods_id": 1,
+        moveId: 133,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19024,233 +18873,233 @@ const moves = {
   "80": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 133,
-        "learning_methods_id": 1,
+        moveId: 133,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19258,118 +19107,118 @@ const moves = {
   "81": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 49,
-        "learning_methods_id": 1,
+        moveId: 49,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19377,133 +19226,133 @@ const moves = {
   "82": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 49,
-        "learning_methods_id": 1,
+        moveId: 49,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 49,
-        "learning_methods_id": 1,
+        moveId: 49,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19511,128 +19360,128 @@ const moves = {
   "83": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 1,
+        moveId: 14,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19640,118 +19489,118 @@ const moves = {
   "84": {
     "moves": [
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 65,
-        "learning_methods_id": 1,
+        moveId: 65,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 1,
+        moveId: 161,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19759,133 +19608,133 @@ const moves = {
   "85": {
     "moves": [
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 65,
-        "learning_methods_id": 1,
+        moveId: 65,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 51
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 1,
+        moveId: 161,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -19893,128 +19742,128 @@ const moves = {
   "86": {
     "moves": [
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 1,
+        moveId: 58,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 62,
-        "learning_methods_id": 1,
+        moveId: 62,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 1,
+        moveId: 156,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20022,143 +19871,143 @@ const moves = {
   "87": {
     "moves": [
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 1,
+        moveId: 58,
+        learningMethodId: 1,
         "level": 56
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 62,
-        "learning_methods_id": 1,
+        moveId: 62,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 62,
-        "learning_methods_id": 1,
+        moveId: 62,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 1,
+        moveId: 156,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20166,113 +20015,113 @@ const moves = {
   "88": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 107,
-        "learning_methods_id": 1,
+        moveId: 107,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 124,
-        "learning_methods_id": 1,
+        moveId: 124,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 139,
-        "learning_methods_id": 1,
+        moveId: 139,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 151,
-        "learning_methods_id": 1,
+        moveId: 151,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20280,123 +20129,123 @@ const moves = {
   "89": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 53
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 107,
-        "learning_methods_id": 1,
+        moveId: 107,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 124,
-        "learning_methods_id": 1,
+        moveId: 124,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 139,
-        "learning_methods_id": 1,
+        moveId: 139,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 139,
-        "learning_methods_id": 1,
+        moveId: 139,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 151,
-        "learning_methods_id": 1,
+        moveId: 151,
+        learningMethodId: 1,
         "level": 60
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20404,138 +20253,138 @@ const moves = {
   "90": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 1,
+        moveId: 58,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 62,
-        "learning_methods_id": 1,
+        moveId: 62,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 128,
-        "learning_methods_id": 1,
+        moveId: 128,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20543,133 +20392,133 @@ const moves = {
   "91": {
     "moves": [
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 62,
-        "learning_methods_id": 1,
+        moveId: 62,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 128,
-        "learning_methods_id": 1,
+        moveId: 128,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 131,
-        "learning_methods_id": 1,
+        moveId: 131,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20677,103 +20526,103 @@ const moves = {
   "92": {
     "moves": [
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 101,
-        "learning_methods_id": 1,
+        moveId: 101,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 122,
-        "learning_methods_id": 1,
+        moveId: 122,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 1,
+        moveId: 138,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 4,
+        moveId: 138,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20781,103 +20630,103 @@ const moves = {
   "93": {
     "moves": [
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 101,
-        "learning_methods_id": 1,
+        moveId: 101,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 122,
-        "learning_methods_id": 1,
+        moveId: 122,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 1,
+        moveId: 138,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 4,
+        moveId: 138,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -20885,163 +20734,163 @@ const moves = {
   "94": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 101,
-        "learning_methods_id": 1,
+        moveId: 101,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 122,
-        "learning_methods_id": 1,
+        moveId: 122,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 1,
+        moveId: 138,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 4,
+        moveId: 138,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21049,128 +20898,128 @@ const moves = {
   "95": {
     "moves": [
       {
-        "move_id": 20,
-        "learning_methods_id": 1,
+        moveId: 20,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 88,
-        "learning_methods_id": 1,
+        moveId: 88,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21178,168 +21027,168 @@ const moves = {
   "96": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 96,
-        "learning_methods_id": 1,
+        moveId: 96,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 4,
+        moveId: 138,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 139,
-        "learning_methods_id": 1,
+        moveId: 139,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21347,183 +21196,183 @@ const moves = {
   "97": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 12
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 96,
-        "learning_methods_id": 1,
+        moveId: 96,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 4,
+        moveId: 138,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 139,
-        "learning_methods_id": 1,
+        moveId: 139,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21531,128 +21380,128 @@ const moves = {
   "98": {
     "moves": [
       {
-        "move_id": 11,
-        "learning_methods_id": 1,
+        moveId: 11,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 12,
-        "learning_methods_id": 1,
+        moveId: 12,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 152,
-        "learning_methods_id": 1,
+        moveId: 152,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21660,138 +21509,138 @@ const moves = {
   "99": {
     "moves": [
       {
-        "move_id": 11,
-        "learning_methods_id": 1,
+        moveId: 11,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 11,
-        "learning_methods_id": 1,
+        moveId: 11,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 12,
-        "learning_methods_id": 1,
+        moveId: 12,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 152,
-        "learning_methods_id": 1,
+        moveId: 152,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21799,123 +21648,123 @@ const moves = {
   "100": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 49,
-        "learning_methods_id": 1,
+        moveId: 49,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -21923,138 +21772,138 @@ const moves = {
   "101": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 49,
-        "learning_methods_id": 1,
+        moveId: 49,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 49,
-        "learning_methods_id": 1,
+        moveId: 49,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22062,123 +21911,123 @@ const moves = {
   "102": {
     "moves": [
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 73,
-        "learning_methods_id": 1,
+        moveId: 73,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 1,
+        moveId: 76,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 1,
+        moveId: 115,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 121,
-        "learning_methods_id": 4,
+        moveId: 121,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 140,
-        "learning_methods_id": 1,
+        moveId: 140,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22186,118 +22035,118 @@ const moves = {
   "103": {
     "moves": [
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 95,
-        "learning_methods_id": 1,
+        moveId: 95,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 121,
-        "learning_methods_id": 4,
+        moveId: 121,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 140,
-        "learning_methods_id": 1,
+        moveId: 140,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22305,163 +22154,163 @@ const moves = {
   "104": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 125,
-        "learning_methods_id": 1,
+        moveId: 125,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 155,
-        "learning_methods_id": 1,
+        moveId: 155,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22469,178 +22318,178 @@ const moves = {
   "105": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 125,
-        "learning_methods_id": 1,
+        moveId: 125,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 155,
-        "learning_methods_id": 1,
+        moveId: 155,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22648,133 +22497,133 @@ const moves = {
   "106": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 24,
-        "learning_methods_id": 1,
+        moveId: 24,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 1,
+        moveId: 25,
+        learningMethodId: 1,
         "level": 53
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 26,
-        "learning_methods_id": 1,
+        moveId: 26,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 27,
-        "learning_methods_id": 1,
+        moveId: 27,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 96,
-        "learning_methods_id": 1,
+        moveId: 96,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 136,
-        "learning_methods_id": 1,
+        moveId: 136,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22782,133 +22631,133 @@ const moves = {
   "107": {
     "moves": [
       {
-        "move_id": 4,
-        "learning_methods_id": 1,
+        moveId: 4,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 1,
+        moveId: 5,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 7,
-        "learning_methods_id": 1,
+        moveId: 7,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 8,
-        "learning_methods_id": 1,
+        moveId: 8,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 9,
-        "learning_methods_id": 1,
+        moveId: 9,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 1,
+        moveId: 68,
+        learningMethodId: 1,
         "level": 53
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -22916,188 +22765,188 @@ const moves = {
   "108": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 7
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -23105,98 +22954,98 @@ const moves = {
   "109": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 108,
-        "learning_methods_id": 1,
+        moveId: 108,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 114,
-        "learning_methods_id": 1,
+        moveId: 114,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 123,
-        "learning_methods_id": 1,
+        moveId: 123,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 124,
-        "learning_methods_id": 1,
+        moveId: 124,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -23204,108 +23053,108 @@ const moves = {
   "110": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 108,
-        "learning_methods_id": 1,
+        moveId: 108,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 114,
-        "learning_methods_id": 1,
+        moveId: 114,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 1,
+        moveId: 120,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 123,
-        "learning_methods_id": 1,
+        moveId: 123,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 124,
-        "learning_methods_id": 1,
+        moveId: 124,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 124,
-        "learning_methods_id": 1,
+        moveId: 124,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 1,
+        moveId: 153,
+        learningMethodId: 1,
         "level": 53
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -23313,138 +23162,138 @@ const moves = {
   "111": {
     "moves": [
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 1,
+        moveId: 32,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -23452,213 +23301,213 @@ const moves = {
   "112": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 1,
+        moveId: 32,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 64
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -23666,223 +23515,223 @@ const moves = {
   "113": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 1,
+        moveId: 38,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 47,
-        "learning_methods_id": 1,
+        moveId: 47,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 107,
-        "learning_methods_id": 1,
+        moveId: 107,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 111,
-        "learning_methods_id": 1,
+        moveId: 111,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 121,
-        "learning_methods_id": 4,
+        moveId: 121,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 135,
-        "learning_methods_id": 4,
+        moveId: 135,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -23890,123 +23739,123 @@ const moves = {
   "114": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 20,
-        "learning_methods_id": 1,
+        moveId: 20,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 71,
-        "learning_methods_id": 1,
+        moveId: 71,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 74,
-        "learning_methods_id": 1,
+        moveId: 74,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 77,
-        "learning_methods_id": 1,
+        moveId: 77,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 78,
-        "learning_methods_id": 1,
+        moveId: 78,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 79,
-        "learning_methods_id": 1,
+        moveId: 79,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 132,
-        "learning_methods_id": 1,
+        moveId: 132,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24014,183 +23863,183 @@ const moves = {
   "115": {
     "moves": [
       {
-        "move_id": 4,
-        "learning_methods_id": 1,
+        moveId: 4,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 1,
+        moveId: 5,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 26
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 146,
-        "learning_methods_id": 1,
+        moveId: 146,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24198,113 +24047,113 @@ const moves = {
   "116": {
     "moves": [
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 108,
-        "learning_methods_id": 1,
+        moveId: 108,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24312,123 +24161,123 @@ const moves = {
   "117": {
     "moves": [
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 108,
-        "learning_methods_id": 1,
+        moveId: 108,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 108,
-        "learning_methods_id": 1,
+        moveId: 108,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 145,
-        "learning_methods_id": 1,
+        moveId: 145,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24436,128 +24285,128 @@ const moves = {
   "118": {
     "moves": [
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 1,
+        moveId: 32,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 127,
-        "learning_methods_id": 1,
+        moveId: 127,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24565,138 +24414,138 @@ const moves = {
   "119": {
     "moves": [
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 31,
-        "learning_methods_id": 1,
+        moveId: 31,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 1,
+        moveId: 32,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 19
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 127,
-        "learning_methods_id": 1,
+        moveId: 127,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24704,168 +24553,168 @@ const moves = {
   "120": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 105,
-        "learning_methods_id": 1,
+        moveId: 105,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 22
       },
       {
-        "move_id": 107,
-        "learning_methods_id": 1,
+        moveId: 107,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -24873,148 +24722,148 @@ const moves = {
   "121": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25022,173 +24871,173 @@ const moves = {
   "122": {
     "moves": [
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 96,
-        "learning_methods_id": 1,
+        moveId: 96,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 112,
-        "learning_methods_id": 1,
+        moveId: 112,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 1,
+        moveId: 164,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25196,108 +25045,108 @@ const moves = {
   "123": {
     "moves": [
       {
-        "move_id": 14,
-        "learning_methods_id": 1,
+        moveId: 14,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 17
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 1,
+        moveId: 104,
+        learningMethodId: 1,
         "level": 24
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 29
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25305,173 +25154,173 @@ const moves = {
   "124": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 3,
-        "learning_methods_id": 1,
+        moveId: 3,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 8,
-        "learning_methods_id": 1,
+        moveId: 8,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 37,
-        "learning_methods_id": 1,
+        moveId: 37,
+        learningMethodId: 1,
         "level": 47
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 1,
+        moveId: 59,
+        learningMethodId: 1,
         "level": 58
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 122,
-        "learning_methods_id": 1,
+        moveId: 122,
+        learningMethodId: 1,
         "level": 18
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 142,
-        "learning_methods_id": 1,
+        moveId: 142,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25479,178 +25328,178 @@ const moves = {
   "125": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 9,
-        "learning_methods_id": 1,
+        moveId: 9,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 1,
+        moveId: 87,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 103,
-        "learning_methods_id": 1,
+        moveId: 103,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25658,153 +25507,153 @@ const moves = {
   "126": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 7,
-        "learning_methods_id": 1,
+        moveId: 7,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 108,
-        "learning_methods_id": 1,
+        moveId: 108,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 123,
-        "learning_methods_id": 1,
+        moveId: 123,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25812,118 +25661,118 @@ const moves = {
   "127": {
     "moves": [
       {
-        "move_id": 11,
-        "learning_methods_id": 1,
+        moveId: 11,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 12,
-        "learning_methods_id": 1,
+        moveId: 12,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 1,
+        moveId: 14,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 1,
+        moveId: 69,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 43
       },
       {
-        "move_id": 116,
-        "learning_methods_id": 1,
+        moveId: 116,
+        learningMethodId: 1,
         "level": 36
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -25931,138 +25780,138 @@ const moves = {
   "128": {
     "moves": [
       {
-        "move_id": 23,
-        "learning_methods_id": 1,
+        moveId: 23,
+        learningMethodId: 1,
         "level": 21
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 51
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26070,13 +25919,13 @@ const moves = {
   "129": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 15
       },
       {
-        "move_id": 150,
-        "learning_methods_id": 1,
+        moveId: 150,
+        learningMethodId: 1,
         "level": 1
       }
     ]
@@ -26084,163 +25933,163 @@ const moves = {
   "130": {
     "moves": [
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 32
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 1,
+        moveId: 63,
+        learningMethodId: 1,
         "level": 52
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 1,
+        moveId: 82,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 1,
+        moveId: 82,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26248,173 +26097,173 @@ const moves = {
   "131": {
     "moves": [
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 25
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 45,
-        "learning_methods_id": 1,
+        moveId: 45,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 47,
-        "learning_methods_id": 1,
+        moveId: 47,
+        learningMethodId: 1,
         "level": 16
       },
       {
-        "move_id": 54,
-        "learning_methods_id": 1,
+        moveId: 54,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 1,
+        moveId: 58,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 109,
-        "learning_methods_id": 1,
+        moveId: 109,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26422,8 +26271,8 @@ const moves = {
   "132": {
     "moves": [
       {
-        "move_id": 144,
-        "learning_methods_id": 1,
+        moveId: 144,
+        learningMethodId: 1,
         "level": 1
       }
     ]
@@ -26431,98 +26280,98 @@ const moves = {
   "133": {
     "moves": [
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26530,158 +26379,158 @@ const moves = {
   "134": {
     "moves": [
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 54,
-        "learning_methods_id": 1,
+        moveId: 54,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 114,
-        "learning_methods_id": 1,
+        moveId: 114,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 151,
-        "learning_methods_id": 1,
+        moveId: 151,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26689,153 +26538,153 @@ const moves = {
   "135": {
     "moves": [
       {
-        "move_id": 24,
-        "learning_methods_id": 1,
+        moveId: 24,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 42,
-        "learning_methods_id": 1,
+        moveId: 42,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 1,
+        moveId: 87,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26843,138 +26692,138 @@ const moves = {
   "136": {
     "moves": [
       {
-        "move_id": 28,
-        "learning_methods_id": 1,
+        moveId: 28,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 39,
-        "learning_methods_id": 1,
+        moveId: 39,
+        learningMethodId: 1,
         "level": 37
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 52,
-        "learning_methods_id": 1,
+        moveId: 52,
+        learningMethodId: 1,
         "level": 31
       },
       {
-        "move_id": 53,
-        "learning_methods_id": 1,
+        moveId: 53,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 98,
-        "learning_methods_id": 1,
+        moveId: 98,
+        learningMethodId: 1,
         "level": 27
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 1,
+        moveId: 99,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -26982,153 +26831,153 @@ const moves = {
   "137": {
     "moves": [
       {
-        "move_id": 33,
-        "learning_methods_id": 1,
+        moveId: 33,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 60,
-        "learning_methods_id": 1,
+        moveId: 60,
+        learningMethodId: 1,
         "level": 23
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 105,
-        "learning_methods_id": 1,
+        moveId: 105,
+        learningMethodId: 1,
         "level": 28
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 159,
-        "learning_methods_id": 1,
+        moveId: 159,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 160,
-        "learning_methods_id": 1,
+        moveId: 160,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 1,
+        moveId: 161,
+        learningMethodId: 1,
         "level": 42
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -27136,113 +26985,113 @@ const moves = {
   "138": {
     "moves": [
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 53
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 131,
-        "learning_methods_id": 1,
+        moveId: 131,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -27250,143 +27099,143 @@ const moves = {
   "139": {
     "moves": [
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 30,
-        "learning_methods_id": 1,
+        moveId: 30,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 1,
+        moveId: 55,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 110,
-        "learning_methods_id": 1,
+        moveId: 110,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 131,
-        "learning_methods_id": 1,
+        moveId: 131,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -27394,113 +27243,113 @@ const moves = {
   "140": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 44
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 49
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 71,
-        "learning_methods_id": 1,
+        moveId: 71,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -27508,153 +27357,153 @@ const moves = {
   "141": {
     "moves": [
       {
-        "move_id": 10,
-        "learning_methods_id": 1,
+        moveId: 10,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 46
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 56,
-        "learning_methods_id": 1,
+        moveId: 56,
+        learningMethodId: 1,
         "level": 53
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 71,
-        "learning_methods_id": 1,
+        moveId: 71,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 71,
-        "learning_methods_id": 1,
+        moveId: 71,
+        learningMethodId: 1,
         "level": 34
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 163,
-        "learning_methods_id": 1,
+        moveId: 163,
+        learningMethodId: 1,
         "level": 39
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -27662,123 +27511,123 @@ const moves = {
   "142": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 17,
-        "learning_methods_id": 1,
+        moveId: 17,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 1,
+        moveId: 36,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 44,
-        "learning_methods_id": 1,
+        moveId: 44,
+        learningMethodId: 1,
         "level": 38
       },
       {
-        "move_id": 48,
-        "learning_methods_id": 1,
+        moveId: 48,
+        learningMethodId: 1,
         "level": 33
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 1,
+        moveId: 63,
+        learningMethodId: 1,
         "level": 54
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -27786,218 +27635,218 @@ const moves = {
   "143": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 29,
-        "learning_methods_id": 1,
+        moveId: 29,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 1,
+        moveId: 34,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 1,
+        moveId: 38,
+        learningMethodId: 1,
         "level": 48
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 1,
+        moveId: 63,
+        learningMethodId: 1,
         "level": 56
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 106,
-        "learning_methods_id": 1,
+        moveId: 106,
+        learningMethodId: 1,
         "level": 41
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 133,
-        "learning_methods_id": 1,
+        moveId: 133,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 1,
+        moveId: 156,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28005,128 +27854,128 @@ const moves = {
   "144": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 54,
-        "learning_methods_id": 1,
+        moveId: 54,
+        learningMethodId: 1,
         "level": 60
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 1,
+        moveId: 58,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 1,
+        moveId: 59,
+        learningMethodId: 1,
         "level": 51
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28134,128 +27983,128 @@ const moves = {
   "145": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 65,
-        "learning_methods_id": 1,
+        moveId: 65,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 84,
-        "learning_methods_id": 1,
+        moveId: 84,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 1,
+        moveId: 87,
+        learningMethodId: 1,
         "level": 51
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 113,
-        "learning_methods_id": 1,
+        moveId: 113,
+        learningMethodId: 1,
         "level": 60
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28263,113 +28112,113 @@ const moves = {
   "146": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 51
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 64,
-        "learning_methods_id": 1,
+        moveId: 64,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 83,
-        "learning_methods_id": 1,
+        moveId: 83,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 1,
+        moveId: 143,
+        learningMethodId: 1,
         "level": 60
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28377,153 +28226,153 @@ const moves = {
   "147": {
     "moves": [
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 1,
+        moveId: 63,
+        learningMethodId: 1,
         "level": 50
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 1,
+        moveId: 82,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28531,163 +28380,163 @@ const moves = {
   "148": {
     "moves": [
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 1,
+        moveId: 63,
+        learningMethodId: 1,
         "level": 55
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 1,
+        moveId: 82,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28695,183 +28544,183 @@ const moves = {
   "149": {
     "moves": [
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 21,
-        "learning_methods_id": 1,
+        moveId: 21,
+        learningMethodId: 1,
         "level": 35
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 35,
-        "learning_methods_id": 1,
+        moveId: 35,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 43,
-        "learning_methods_id": 1,
+        moveId: 43,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 1,
+        moveId: 63,
+        learningMethodId: 1,
         "level": 60
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 1,
+        moveId: 82,
+        learningMethodId: 1,
         "level": 45
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 1,
+        moveId: 86,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 97,
-        "learning_methods_id": 1,
+        moveId: 97,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -28879,228 +28728,228 @@ const moves = {
   "150": {
     "moves": [
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 50,
-        "learning_methods_id": 1,
+        moveId: 50,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 54,
-        "learning_methods_id": 1,
+        moveId: 54,
+        learningMethodId: 1,
         "level": 75
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 93,
-        "learning_methods_id": 1,
+        moveId: 93,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 66
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 105,
-        "learning_methods_id": 1,
+        moveId: 105,
+        learningMethodId: 1,
         "level": 70
       },
       {
-        "move_id": 112,
-        "learning_methods_id": 1,
+        moveId: 112,
+        learningMethodId: 1,
         "level": 63
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 1,
+        moveId: 129,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 133,
-        "learning_methods_id": 1,
+        moveId: 133,
+        learningMethodId: 1,
         "level": 81
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -29108,303 +28957,303 @@ const moves = {
   "151": {
     "moves": [
       {
-        "move_id": 1,
-        "learning_methods_id": 1,
+        moveId: 1,
+        learningMethodId: 1,
         "level": 1
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 1,
+        moveId: 5,
+        learningMethodId: 1,
         "level": 20
       },
       {
-        "move_id": 5,
-        "learning_methods_id": 4,
+        moveId: 5,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 6,
-        "learning_methods_id": 4,
+        moveId: 6,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 13,
-        "learning_methods_id": 4,
+        moveId: 13,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 14,
-        "learning_methods_id": 4,
+        moveId: 14,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 15,
-        "learning_methods_id": 4,
+        moveId: 15,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 18,
-        "learning_methods_id": 4,
+        moveId: 18,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 19,
-        "learning_methods_id": 4,
+        moveId: 19,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 25,
-        "learning_methods_id": 4,
+        moveId: 25,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 32,
-        "learning_methods_id": 4,
+        moveId: 32,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 34,
-        "learning_methods_id": 4,
+        moveId: 34,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 36,
-        "learning_methods_id": 4,
+        moveId: 36,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 38,
-        "learning_methods_id": 4,
+        moveId: 38,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 55,
-        "learning_methods_id": 4,
+        moveId: 55,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 57,
-        "learning_methods_id": 4,
+        moveId: 57,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 58,
-        "learning_methods_id": 4,
+        moveId: 58,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 59,
-        "learning_methods_id": 4,
+        moveId: 59,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 61,
-        "learning_methods_id": 4,
+        moveId: 61,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 63,
-        "learning_methods_id": 4,
+        moveId: 63,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 66,
-        "learning_methods_id": 4,
+        moveId: 66,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 68,
-        "learning_methods_id": 4,
+        moveId: 68,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 69,
-        "learning_methods_id": 4,
+        moveId: 69,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 70,
-        "learning_methods_id": 4,
+        moveId: 70,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 72,
-        "learning_methods_id": 4,
+        moveId: 72,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 76,
-        "learning_methods_id": 4,
+        moveId: 76,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 82,
-        "learning_methods_id": 4,
+        moveId: 82,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 85,
-        "learning_methods_id": 4,
+        moveId: 85,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 86,
-        "learning_methods_id": 4,
+        moveId: 86,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 87,
-        "learning_methods_id": 4,
+        moveId: 87,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 89,
-        "learning_methods_id": 4,
+        moveId: 89,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 90,
-        "learning_methods_id": 4,
+        moveId: 90,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 91,
-        "learning_methods_id": 4,
+        moveId: 91,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 92,
-        "learning_methods_id": 4,
+        moveId: 92,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 1,
+        moveId: 94,
+        learningMethodId: 1,
         "level": 40
       },
       {
-        "move_id": 94,
-        "learning_methods_id": 4,
+        moveId: 94,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 99,
-        "learning_methods_id": 4,
+        moveId: 99,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 100,
-        "learning_methods_id": 4,
+        moveId: 100,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 102,
-        "learning_methods_id": 4,
+        moveId: 102,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 104,
-        "learning_methods_id": 4,
+        moveId: 104,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 115,
-        "learning_methods_id": 4,
+        moveId: 115,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 117,
-        "learning_methods_id": 4,
+        moveId: 117,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 1,
+        moveId: 118,
+        learningMethodId: 1,
         "level": 30
       },
       {
-        "move_id": 118,
-        "learning_methods_id": 4,
+        moveId: 118,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 120,
-        "learning_methods_id": 4,
+        moveId: 120,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 121,
-        "learning_methods_id": 4,
+        moveId: 121,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 126,
-        "learning_methods_id": 4,
+        moveId: 126,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 129,
-        "learning_methods_id": 4,
+        moveId: 129,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 130,
-        "learning_methods_id": 4,
+        moveId: 130,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 135,
-        "learning_methods_id": 4,
+        moveId: 135,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 138,
-        "learning_methods_id": 4,
+        moveId: 138,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 143,
-        "learning_methods_id": 4,
+        moveId: 143,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 144,
-        "learning_methods_id": 1,
+        moveId: 144,
+        learningMethodId: 1,
         "level": 10
       },
       {
-        "move_id": 148,
-        "learning_methods_id": 4,
+        moveId: 148,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 149,
-        "learning_methods_id": 4,
+        moveId: 149,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 153,
-        "learning_methods_id": 4,
+        moveId: 153,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 156,
-        "learning_methods_id": 4,
+        moveId: 156,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 157,
-        "learning_methods_id": 4,
+        moveId: 157,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 161,
-        "learning_methods_id": 4,
+        moveId: 161,
+        learningMethodId: 4,
         "level": 0
       },
       {
-        "move_id": 164,
-        "learning_methods_id": 4,
+        moveId: 164,
+        learningMethodId: 4,
         "level": 0
       }
     ]
@@ -29415,1258 +29264,1258 @@ const types = {
   "1": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "2": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "3": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "4": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "5": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "6": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "7": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "8": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "9": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "10": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       }
     ]
   },
   "11": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       }
     ]
   },
   "12": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "13": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "14": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "15": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "16": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "17": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "18": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "19": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "20": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "21": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "22": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "23": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "24": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "25": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       }
     ]
   },
   "26": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       }
     ]
   },
   "27": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "28": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "29": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "30": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "31": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       },
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "32": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "33": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "34": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       },
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "35": {
     "types": [
       {
-        "type_id": 18
+        typeId: 18
       }
     ]
   },
   "36": {
     "types": [
       {
-        "type_id": 18
+        typeId: 18
       }
     ]
   },
   "37": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "38": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "39": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 18
+        typeId: 18
       }
     ]
   },
   "40": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 18
+        typeId: 18
       }
     ]
   },
   "41": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "42": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "43": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "44": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "45": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "46": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 12
+        typeId: 12
       }
     ]
   },
   "47": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 12
+        typeId: 12
       }
     ]
   },
   "48": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "49": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "50": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "51": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "52": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "53": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "54": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "55": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "56": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "57": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "58": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "59": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "60": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "61": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "62": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "63": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "64": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "65": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "66": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "67": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "68": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "69": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "70": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "71": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "72": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "73": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "74": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "75": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "76": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "77": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "78": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "79": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "80": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "81": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       },
       {
-        "type_id": 9
+        typeId: 9
       }
     ]
   },
   "82": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       },
       {
-        "type_id": 9
+        typeId: 9
       }
     ]
   },
   "83": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "84": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "85": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "86": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "87": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 15
+        typeId: 15
       }
     ]
   },
   "88": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "89": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "90": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "91": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 15
+        typeId: 15
       }
     ]
   },
   "92": {
     "types": [
       {
-        "type_id": 8
+        typeId: 8
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "93": {
     "types": [
       {
-        "type_id": 8
+        typeId: 8
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "94": {
     "types": [
       {
-        "type_id": 8
+        typeId: 8
       },
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "95": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "96": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "97": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "98": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "99": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "100": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       }
     ]
   },
   "101": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       }
     ]
   },
   "102": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "103": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       },
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "104": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "105": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       }
     ]
   },
   "106": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "107": {
     "types": [
       {
-        "type_id": 2
+        typeId: 2
       }
     ]
   },
   "108": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "109": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "110": {
     "types": [
       {
-        "type_id": 4
+        typeId: 4
       }
     ]
   },
   "111": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       },
       {
-        "type_id": 6
+        typeId: 6
       }
     ]
   },
   "112": {
     "types": [
       {
-        "type_id": 5
+        typeId: 5
       },
       {
-        "type_id": 6
+        typeId: 6
       }
     ]
   },
   "113": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "114": {
     "types": [
       {
-        "type_id": 12
+        typeId: 12
       }
     ]
   },
   "115": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "116": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "117": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "118": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "119": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "120": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "121": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "122": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       },
       {
-        "type_id": 18
+        typeId: 18
       }
     ]
   },
   "123": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "124": {
     "types": [
       {
-        "type_id": 15
+        typeId: 15
       },
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "125": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       }
     ]
   },
   "126": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "127": {
     "types": [
       {
-        "type_id": 7
+        typeId: 7
       }
     ]
   },
   "128": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "129": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "130": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "131": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       },
       {
-        "type_id": 15
+        typeId: 15
       }
     ]
   },
   "132": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "133": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "134": {
     "types": [
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "135": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       }
     ]
   },
   "136": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       }
     ]
   },
   "137": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "138": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "139": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "140": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "141": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 11
+        typeId: 11
       }
     ]
   },
   "142": {
     "types": [
       {
-        "type_id": 6
+        typeId: 6
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "143": {
     "types": [
       {
-        "type_id": 1
+        typeId: 1
       }
     ]
   },
   "144": {
     "types": [
       {
-        "type_id": 15
+        typeId: 15
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "145": {
     "types": [
       {
-        "type_id": 13
+        typeId: 13
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "146": {
     "types": [
       {
-        "type_id": 10
+        typeId: 10
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "147": {
     "types": [
       {
-        "type_id": 16
+        typeId: 16
       }
     ]
   },
   "148": {
     "types": [
       {
-        "type_id": 16
+        typeId: 16
       }
     ]
   },
   "149": {
     "types": [
       {
-        "type_id": 16
+        typeId: 16
       },
       {
-        "type_id": 3
+        typeId: 3
       }
     ]
   },
   "150": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   },
   "151": {
     "types": [
       {
-        "type_id": 14
+        typeId: 14
       }
     ]
   }
@@ -30684,6 +30533,9 @@ export default {
     model.id = id;
     Object.keys(data[id]).forEach((key) => {
       model[key] = data[id][key];
+    })
+    model.evolvesToPokemonId = Object.keys(data).find(pok => {
+      data[pok].evolvesFromPokemonId === id;
     })
     return model;
   }),

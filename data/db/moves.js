@@ -1,4909 +1,5242 @@
 const moves = {
   "1": {
     "identifier":"pound",
-    "type_id":1,
+    typeId: 1,
     "power":40,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null,
-    "flavor_text":"Pounds with fore­ legs or tail."
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null,
+    description: "Pounds with fore­ legs or tail."
   },
   "2": {
     "identifier":"karate-chop",
-    "type_id":2,
+    typeId: 2,
     "power":50,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":44,
-    "effect_chance":null,
-    "flavor_text":"Has a high criti­ cal hit ratio."
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 44,
+    effectChance: null,
+    description: "Has a high criti­ cal hit ratio."
   },
   "3": {
     "identifier":"double-slap",
-    "type_id":1,
+    typeId: 1,
     "power":15,
     "pp":10,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null,
-    "flavor_text":"Repeatedly slaps 2-5 times."
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null,
+    description: "Repeatedly slaps 2-5 times."
   },
   "4": {
     "identifier":"comet-punch",
-    "type_id":1,
+    typeId: 1,
     "power":18,
     "pp":15,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null,
-    "flavor_text":"Repeatedly punches 2-5 times."
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null,
+    description: "Repeatedly punches 2-5 times."
   },
   "5": {
     "identifier":"mega-punch",
-    "type_id":1,
+    typeId: 1,
     "power":80,
     "pp":20,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "6": {
     "identifier":"pay-day",
-    "type_id":1,
+    typeId: 1,
     "power":40,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":35,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 35,
+    effectChance: null
   },
   "7": {
     "identifier":"fire-punch",
-    "type_id":10,
+    typeId: 10,
     "power":75,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":5,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 5,
+    effectChance: 10
   },
   "8": {
     "identifier":"ice-punch",
-    "type_id":15,
+    typeId: 15,
     "power":75,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":6,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 6,
+    effectChance: 10
   },
   "9": {
     "identifier":"thunder-punch",
-    "type_id":13,
+    typeId: 13,
     "power":75,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":7,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 7,
+    effectChance: 10
   },
   "10": {
     "identifier":"scratch",
-    "type_id":1,
+    typeId: 1,
     "power":40,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "11": {
     "identifier":"vice-grip",
-    "type_id":1,
+    typeId: 1,
     "power":55,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "12": {
     "identifier":"guillotine",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":5,
     "accuracy":30,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":39,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 39,
+    effectChance: null
   },
   "13": {
     "identifier":"razor-wind",
-    "type_id":1,
+    typeId: 1,
     "power":80,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":3,
-    "effect_id":40,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 3,
+    effectId: 40,
+    effectChance: null
   },
   "14": {
     "identifier":"swords-dance",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":51,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 51,
+    effectChance: null
   },
   "15": {
     "identifier":"cut",
-    "type_id":1,
+    typeId: 1,
     "power":50,
     "pp":30,
     "accuracy":95,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "16": {
     "identifier":"gust",
-    "type_id":3,
+    typeId: 3,
     "power":40,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":150,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 150,
+    effectChance: null
   },
   "17": {
     "identifier":"wing-attack",
-    "type_id":3,
+    typeId: 3,
     "power":60,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "18": {
     "identifier":"whirlwind",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":-6,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":29,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 29,
+    effectChance: null
   },
   "19": {
     "identifier":"fly",
-    "type_id":3,
+    typeId: 3,
     "power":90,
     "pp":15,
     "accuracy":95,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":156,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 156,
+    effectChance: null
   },
   "20": {
     "identifier":"bind",
-    "type_id":1,
+    typeId: 1,
     "power":15,
     "pp":20,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":43,
-    "effect_chance":100
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 43,
+    effectChance: 100
   },
   "21": {
     "identifier":"slam",
-    "type_id":1,
+    typeId: 1,
     "power":80,
     "pp":20,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "22": {
     "identifier":"vine-whip",
-    "type_id":12,
+    typeId: 12,
     "power":45,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "23": {
     "identifier":"stomp",
-    "type_id":1,
+    typeId: 1,
     "power":65,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":151,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 151,
+    effectChance: 30
   },
   "24": {
     "identifier":"double-kick",
-    "type_id":2,
+    typeId: 2,
     "power":30,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":45,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 45,
+    effectChance: null
   },
   "25": {
     "identifier":"mega-kick",
-    "type_id":1,
+    typeId: 1,
     "power":120,
     "pp":5,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "26": {
     "identifier":"jump-kick",
-    "type_id":2,
+    typeId: 2,
     "power":100,
     "pp":10,
     "accuracy":95,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":46,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 46,
+    effectChance: null
   },
   "27": {
     "identifier":"rolling-kick",
-    "type_id":2,
+    typeId: 2,
     "power":60,
     "pp":15,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 30
   },
   "28": {
     "identifier":"sand-attack",
-    "type_id":5,
+    typeId: 5,
     "power":null,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":24,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 24,
+    effectChance: null
   },
   "29": {
     "identifier":"headbutt",
-    "type_id":1,
+    typeId: 1,
     "power":70,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 30
   },
   "30": {
     "identifier":"horn-attack",
-    "type_id":1,
+    typeId: 1,
     "power":65,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "31": {
     "identifier":"fury-attack",
-    "type_id":1,
+    typeId: 1,
     "power":15,
     "pp":20,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null
   },
   "32": {
     "identifier":"horn-drill",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":5,
     "accuracy":30,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":39,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 39,
+    effectChance: null
   },
   "33": {
     "identifier":"tackle",
-    "type_id":1,
+    typeId: 1,
     "power":50,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "34": {
     "identifier":"body-slam",
-    "type_id":1,
+    typeId: 1,
     "power":85,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":7,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 7,
+    effectChance: 30
   },
   "35": {
     "identifier":"wrap",
-    "type_id":1,
+    typeId: 1,
     "power":15,
     "pp":20,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":43,
-    "effect_chance":100
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 43,
+    effectChance: 100
   },
   "36": {
     "identifier":"take-down",
-    "type_id":1,
+    typeId: 1,
     "power":90,
     "pp":20,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":49,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 49,
+    effectChance: null
   },
   "37": {
     "identifier":"thrash",
-    "type_id":1,
+    typeId: 1,
     "power":120,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":8,
-    "damage_class_id":2,
-    "effect_id":28,
-    "effect_chance":null
+    targetId: 8,
+    damageClassId: 2,
+    effectId: 28,
+    effectChance: null
   },
   "38": {
     "identifier":"double-edge",
-    "type_id":1,
+    typeId: 1,
     "power":120,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":199,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 199,
+    effectChance: null
   },
   "39": {
     "identifier":"tail-whip",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":1,
-    "effect_id":20,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 1,
+    effectId: 20,
+    effectChance: null
   },
   "40": {
     "identifier":"poison-sting",
-    "type_id":4,
+    typeId: 4,
     "power":15,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":3,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 3,
+    effectChance: 30
   },
   "41": {
     "identifier":"twineedle",
-    "type_id":7,
+    typeId: 7,
     "power":25,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":78,
-    "effect_chance":20
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 78,
+    effectChance: 20
   },
   "42": {
     "identifier":"pin-missile",
-    "type_id":7,
+    typeId: 7,
     "power":25,
     "pp":20,
     "accuracy":95,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null
   },
   "43": {
     "identifier":"leer",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":1,
-    "effect_id":20,
-    "effect_chance":100
+    targetId: 11,
+    damageClassId: 1,
+    effectId: 20,
+    effectChance: 100
   },
   "44": {
     "identifier":"bite",
-    "type_id":17,
+    typeId: 17,
     "power":60,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 30
   },
   "45": {
     "identifier":"growl",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":40,
     "accuracy":100,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":1,
-    "effect_id":19,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 1,
+    effectId: 19,
+    effectChance: null
   },
   "46": {
     "identifier":"roar",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":-6,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":29,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 29,
+    effectChance: null
   },
   "47": {
     "identifier":"sing",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":15,
     "accuracy":55,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":2,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 2,
+    effectChance: null
   },
   "48": {
     "identifier":"supersonic",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":55,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":50,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 50,
+    effectChance: null
   },
   "49": {
     "identifier":"sonic-boom",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":131,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 131,
+    effectChance: null
   },
   "50": {
     "identifier":"disable",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":87,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 87,
+    effectChance: null
   },
   "51": {
     "identifier":"acid",
-    "type_id":4,
+    typeId: 4,
     "power":40,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":3,
-    "effect_id":73,
-    "effect_chance":10
+    targetId: 11,
+    damageClassId: 3,
+    effectId: 73,
+    effectChance: 10
   },
   "52": {
     "identifier":"ember",
-    "type_id":10,
+    typeId: 10,
     "power":40,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":5,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 5,
+    effectChance: 10
   },
   "53": {
     "identifier":"flamethrower",
-    "type_id":10,
+    typeId: 10,
     "power":90,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":5,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 5,
+    effectChance: 10
   },
   "54": {
     "identifier":"mist",
-    "type_id":15,
+    typeId: 15,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":4,
-    "damage_class_id":1,
-    "effect_id":47,
-    "effect_chance":null
+    targetId: 4,
+    damageClassId: 1,
+    effectId: 47,
+    effectChance: null
   },
   "55": {
     "identifier":"water-gun",
-    "type_id":11,
+    typeId: 11,
     "power":40,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 1,
+    effectChance: null
   },
   "56": {
     "identifier":"hydro-pump",
-    "type_id":11,
+    typeId: 11,
     "power":110,
     "pp":5,
     "accuracy":80,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 1,
+    effectChance: null
   },
   "57": {
     "identifier":"surf",
-    "type_id":11,
+    typeId: 11,
     "power":90,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":9,
-    "damage_class_id":3,
-    "effect_id":258,
-    "effect_chance":null
+    targetId: 9,
+    damageClassId: 3,
+    effectId: 258,
+    effectChance: null
   },
   "58": {
     "identifier":"ice-beam",
-    "type_id":15,
+    typeId: 15,
     "power":90,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":6,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 6,
+    effectChance: 10
   },
   "59": {
     "identifier":"blizzard",
-    "type_id":15,
+    typeId: 15,
     "power":110,
     "pp":5,
     "accuracy":70,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":3,
-    "effect_id":261,
-    "effect_chance":10
+    targetId: 11,
+    damageClassId: 3,
+    effectId: 261,
+    effectChance: 10
   },
   "60": {
     "identifier":"psybeam",
-    "type_id":14,
+    typeId: 14,
     "power":65,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":77,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 77,
+    effectChance: 10
   },
   "61": {
     "identifier":"bubble-beam",
-    "type_id":11,
+    typeId: 11,
     "power":65,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":71,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 71,
+    effectChance: 10
   },
   "62": {
     "identifier":"aurora-beam",
-    "type_id":15,
+    typeId: 15,
     "power":65,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":69,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 69,
+    effectChance: 10
   },
   "63": {
     "identifier":"hyper-beam",
-    "type_id":1,
+    typeId: 1,
     "power":150,
     "pp":5,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":81,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 81,
+    effectChance: null
   },
   "64": {
     "identifier":"peck",
-    "type_id":3,
+    typeId: 3,
     "power":35,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "65": {
     "identifier":"drill-peck",
-    "type_id":3,
+    typeId: 3,
     "power":80,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "66": {
     "identifier":"submission",
-    "type_id":2,
+    typeId: 2,
     "power":80,
     "pp":20,
     "accuracy":80,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":49,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 49,
+    effectChance: null
   },
   "67": {
     "identifier":"low-kick",
-    "type_id":2,
+    typeId: 2,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":197,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 197,
+    effectChance: null
   },
   "68": {
     "identifier":"counter",
-    "type_id":2,
+    typeId: 2,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":-5,
-    "target_id":1,
-    "damage_class_id":2,
-    "effect_id":90,
-    "effect_chance":null
+    targetId: 1,
+    damageClassId: 2,
+    effectId: 90,
+    effectChance: null
   },
   "69": {
     "identifier":"seismic-toss",
-    "type_id":2,
+    typeId: 2,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":88,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 88,
+    effectChance: null
   },
   "70": {
     "identifier":"strength",
-    "type_id":1,
+    typeId: 1,
     "power":80,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "71": {
     "identifier":"absorb",
-    "type_id":12,
+    typeId: 12,
     "power":20,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":4,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 4,
+    effectChance: null
   },
   "72": {
     "identifier":"mega-drain",
-    "type_id":12,
+    typeId: 12,
     "power":40,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":4,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 4,
+    effectChance: null
   },
   "73": {
     "identifier":"leech-seed",
-    "type_id":12,
+    typeId: 12,
     "power":null,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":85,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 85,
+    effectChance: null
   },
   "74": {
     "identifier":"growth",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":317,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 317,
+    effectChance: null
   },
   "75": {
     "identifier":"razor-leaf",
-    "type_id":12,
+    typeId: 12,
     "power":55,
     "pp":25,
     "accuracy":95,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":2,
-    "effect_id":44,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 2,
+    effectId: 44,
+    effectChance: null
   },
   "76": {
     "identifier":"solar-beam",
-    "type_id":12,
+    typeId: 12,
     "power":120,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":152,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 152,
+    effectChance: null
   },
   "77": {
     "identifier":"poison-powder",
-    "type_id":4,
+    typeId: 4,
     "power":null,
     "pp":35,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":67,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 67,
+    effectChance: null
   },
   "78": {
     "identifier":"stun-spore",
-    "type_id":12,
+    typeId: 12,
     "power":null,
     "pp":30,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":68,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 68,
+    effectChance: null
   },
   "79": {
     "identifier":"sleep-powder",
-    "type_id":12,
+    typeId: 12,
     "power":null,
     "pp":15,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":2,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 2,
+    effectChance: null
   },
   "80": {
     "identifier":"petal-dance",
-    "type_id":12,
+    typeId: 12,
     "power":120,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":8,
-    "damage_class_id":3,
-    "effect_id":28,
-    "effect_chance":null
+    targetId: 8,
+    damageClassId: 3,
+    effectId: 28,
+    effectChance: null
   },
   "81": {
     "identifier":"string-shot",
-    "type_id":7,
+    typeId: 7,
     "power":null,
     "pp":40,
     "accuracy":95,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":1,
-    "effect_id":21,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 1,
+    effectId: 21,
+    effectChance: null
   },
   "82": {
     "identifier":"dragon-rage",
-    "type_id":16,
+    typeId: 16,
     "power":null,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":42,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 42,
+    effectChance: null
   },
   "83": {
     "identifier":"fire-spin",
-    "type_id":10,
+    typeId: 10,
     "power":35,
     "pp":15,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":43,
-    "effect_chance":100
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 43,
+    effectChance: 100
   },
   "84": {
     "identifier":"thunder-shock",
-    "type_id":13,
+    typeId: 13,
     "power":40,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":7,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 7,
+    effectChance: 10
   },
   "85": {
     "identifier":"thunderbolt",
-    "type_id":13,
+    typeId: 13,
     "power":90,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":7,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 7,
+    effectChance: 10
   },
   "86": {
     "identifier":"thunder-wave",
-    "type_id":13,
+    typeId: 13,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":68,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 68,
+    effectChance: null
   },
   "87": {
     "identifier":"thunder",
-    "type_id":13,
+    typeId: 13,
     "power":110,
     "pp":10,
     "accuracy":70,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":153,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 153,
+    effectChance: 30
   },
   "88": {
     "identifier":"rock-throw",
-    "type_id":6,
+    typeId: 6,
     "power":50,
     "pp":15,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "89": {
     "identifier":"earthquake",
-    "type_id":5,
+    typeId: 5,
     "power":100,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":9,
-    "damage_class_id":2,
-    "effect_id":148,
-    "effect_chance":null
+    targetId: 9,
+    damageClassId: 2,
+    effectId: 148,
+    effectChance: null
   },
   "90": {
     "identifier":"fissure",
-    "type_id":5,
+    typeId: 5,
     "power":null,
     "pp":5,
     "accuracy":30,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":39,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 39,
+    effectChance: null
   },
   "91": {
     "identifier":"dig",
-    "type_id":5,
+    typeId: 5,
     "power":80,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":257,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 257,
+    effectChance: null
   },
   "92": {
     "identifier":"toxic",
-    "type_id":4,
+    typeId: 4,
     "power":null,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":34,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 34,
+    effectChance: null
   },
   "93": {
     "identifier":"confusion",
-    "type_id":14,
+    typeId: 14,
     "power":50,
     "pp":25,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":77,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 77,
+    effectChance: 10
   },
   "94": {
     "identifier":"psychic",
-    "type_id":14,
+    typeId: 14,
     "power":90,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":73,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 73,
+    effectChance: 10
   },
   "95": {
     "identifier":"hypnosis",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":20,
     "accuracy":60,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":2,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 2,
+    effectChance: null
   },
   "96": {
     "identifier":"meditate",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":40,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":11,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 11,
+    effectChance: null
   },
   "97": {
     "identifier":"agility",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":53,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 53,
+    effectChance: null
   },
   "98": {
     "identifier":"quick-attack",
-    "type_id":1,
+    typeId: 1,
     "power":40,
     "pp":30,
     "accuracy":100,
     "priority":1,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":104,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 104,
+    effectChance: null
   },
   "99": {
     "identifier":"rage",
-    "type_id":1,
+    typeId: 1,
     "power":20,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":82,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 82,
+    effectChance: null
   },
   "100": {
     "identifier":"teleport",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":154,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 154,
+    effectChance: null
   },
   "101": {
     "identifier":"night-shade",
-    "type_id":8,
+    typeId: 8,
     "power":null,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":88,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 88,
+    effectChance: null
   },
   "102": {
     "identifier":"mimic",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":83,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 83,
+    effectChance: null
   },
   "103": {
     "identifier":"screech",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":40,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":60,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 60,
+    effectChance: null
   },
   "104": {
     "identifier":"double-team",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":15,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":17,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 17,
+    effectChance: null
   },
   "105": {
     "identifier":"recover",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":33,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 33,
+    effectChance: null
   },
   "106": {
     "identifier":"harden",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":12,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 12,
+    effectChance: null
   },
   "107": {
     "identifier":"minimize",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":109,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 109,
+    effectChance: null
   },
   "108": {
     "identifier":"smokescreen",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":24,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 24,
+    effectChance: null
   },
   "109": {
     "identifier":"confuse-ray",
-    "type_id":8,
+    typeId: 8,
     "power":null,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":50,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 50,
+    effectChance: null
   },
   "110": {
     "identifier":"withdraw",
-    "type_id":11,
+    typeId: 11,
     "power":null,
     "pp":40,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":12,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 12,
+    effectChance: null
   },
   "111": {
     "identifier":"defense-curl",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":40,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":157,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 157,
+    effectChance: null
   },
   "112": {
     "identifier":"barrier",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":52,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 52,
+    effectChance: null
   },
   "113": {
     "identifier":"light-screen",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":4,
-    "damage_class_id":1,
-    "effect_id":36,
-    "effect_chance":null
+    targetId: 4,
+    damageClassId: 1,
+    effectId: 36,
+    effectChance: null
   },
   "114": {
     "identifier":"haze",
-    "type_id":15,
+    typeId: 15,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":12,
-    "damage_class_id":1,
-    "effect_id":26,
-    "effect_chance":null
+    targetId: 12,
+    damageClassId: 1,
+    effectId: 26,
+    effectChance: null
   },
   "115": {
     "identifier":"reflect",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":4,
-    "damage_class_id":1,
-    "effect_id":66,
-    "effect_chance":null
+    targetId: 4,
+    damageClassId: 1,
+    effectId: 66,
+    effectChance: null
   },
   "116": {
     "identifier":"focus-energy",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":48,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 48,
+    effectChance: null
   },
   "117": {
     "identifier":"bide",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":1,
-    "target_id":7,
-    "damage_class_id":2,
-    "effect_id":27,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 2,
+    effectId: 27,
+    effectChance: null
   },
   "118": {
     "identifier":"metronome",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":84,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 84,
+    effectChance: null
   },
   "119": {
     "identifier":"mirror-move",
-    "type_id":3,
+    typeId: 3,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":10,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 10,
+    effectChance: null
   },
   "120": {
     "identifier":"self-destruct",
-    "type_id":1,
+    typeId: 1,
     "power":200,
     "pp":5,
     "accuracy":100,
     "priority":0,
-    "target_id":9,
-    "damage_class_id":2,
-    "effect_id":8,
-    "effect_chance":null
+    targetId: 9,
+    damageClassId: 2,
+    effectId: 8,
+    effectChance: null
   },
   "121": {
     "identifier":"egg-bomb",
-    "type_id":1,
+    typeId: 1,
     "power":100,
     "pp":10,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":1,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 1,
+    effectChance: null
   },
   "122": {
     "identifier":"lick",
-    "type_id":8,
+    typeId: 8,
     "power":30,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":7,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 7,
+    effectChance: 30
   },
   "123": {
     "identifier":"smog",
-    "type_id":4,
+    typeId: 4,
     "power":30,
     "pp":20,
     "accuracy":70,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":3,
-    "effect_chance":40
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 3,
+    effectChance: 40
   },
   "124": {
     "identifier":"sludge",
-    "type_id":4,
+    typeId: 4,
     "power":65,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":3,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 3,
+    effectChance: 30
   },
   "125": {
     "identifier":"bone-club",
-    "type_id":5,
+    typeId: 5,
     "power":65,
     "pp":20,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 10
   },
   "126": {
     "identifier":"fire-blast",
-    "type_id":10,
+    typeId: 10,
     "power":110,
     "pp":5,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":5,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 5,
+    effectChance: 10
   },
   "127": {
     "identifier":"waterfall",
-    "type_id":11,
+    typeId: 11,
     "power":80,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":20
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 20
   },
   "128": {
     "identifier":"clamp",
-    "type_id":11,
+    typeId: 11,
     "power":35,
     "pp":15,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":43,
-    "effect_chance":100
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 43,
+    effectChance: 100
   },
   "129": {
     "identifier":"swift",
-    "type_id":1,
+    typeId: 1,
     "power":60,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":3,
-    "effect_id":18,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 3,
+    effectId: 18,
+    effectChance: null
   },
   "130": {
     "identifier":"skull-bash",
-    "type_id":1,
+    typeId: 1,
     "power":130,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":146,
-    "effect_chance":100
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 146,
+    effectChance: 100
   },
   "131": {
     "identifier":"spike-cannon",
-    "type_id":1,
+    typeId: 1,
     "power":20,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null
   },
   "132": {
     "identifier":"constrict",
-    "type_id":1,
+    typeId: 1,
     "power":10,
     "pp":35,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":71,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 71,
+    effectChance: 10
   },
   "133": {
     "identifier":"amnesia",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":55,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 55,
+    effectChance: null
   },
   "134": {
     "identifier":"kinesis",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":15,
     "accuracy":80,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":24,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 24,
+    effectChance: null
   },
   "135": {
     "identifier":"soft-boiled",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":33,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 33,
+    effectChance: null
   },
   "136": {
     "identifier":"high-jump-kick",
-    "type_id":2,
+    typeId: 2,
     "power":130,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":46,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 46,
+    effectChance: null
   },
   "137": {
     "identifier":"glare",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":68,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 68,
+    effectChance: null
   },
   "138": {
     "identifier":"dream-eater",
-    "type_id":14,
+    typeId: 14,
     "power":100,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":9,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 9,
+    effectChance: null
   },
   "139": {
     "identifier":"poison-gas",
-    "type_id":4,
+    typeId: 4,
     "power":null,
     "pp":40,
     "accuracy":90,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":1,
-    "effect_id":67,
-    "effect_chance":null
+    targetId: 11,
+    damageClassId: 1,
+    effectId: 67,
+    effectChance: null
   },
   "140": {
     "identifier":"barrage",
-    "type_id":1,
+    typeId: 1,
     "power":15,
     "pp":20,
     "accuracy":85,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null
   },
   "141": {
     "identifier":"leech-life",
-    "type_id":7,
+    typeId: 7,
     "power":20,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":4,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 4,
+    effectChance: null
   },
   "142": {
     "identifier":"lovely-kiss",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":75,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":2,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 2,
+    effectChance: null
   },
   "143": {
     "identifier":"sky-attack",
-    "type_id":3,
+    typeId: 3,
     "power":140,
     "pp":5,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":76,
-    "effect_chance":30
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 76,
+    effectChance: 30
   },
   "144": {
     "identifier":"transform",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":58,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 58,
+    effectChance: null
   },
   "145": {
     "identifier":"bubble",
-    "type_id":11,
+    typeId: 11,
     "power":40,
     "pp":30,
     "accuracy":100,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":3,
-    "effect_id":71,
-    "effect_chance":10
+    targetId: 11,
+    damageClassId: 3,
+    effectId: 71,
+    effectChance: 10
   },
   "146": {
     "identifier":"dizzy-punch",
-    "type_id":1,
+    typeId: 1,
     "power":70,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":77,
-    "effect_chance":20
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 77,
+    effectChance: 20
   },
   "147": {
     "identifier":"spore",
-    "type_id":12,
+    typeId: 12,
     "power":null,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":2,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 2,
+    effectChance: null
   },
   "148": {
     "identifier":"flash",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":1,
-    "effect_id":24,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 1,
+    effectId: 24,
+    effectChance: null
   },
   "149": {
     "identifier":"psywave",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":15,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":89,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 89,
+    effectChance: null
   },
   "150": {
     "identifier":"splash",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":40,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":86,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 86,
+    effectChance: null
   },
   "151": {
     "identifier":"acid-armor",
-    "type_id":4,
+    typeId: 4,
     "power":null,
     "pp":20,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":52,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 52,
+    effectChance: null
   },
   "152": {
     "identifier":"crabhammer",
-    "type_id":11,
+    typeId: 11,
     "power":100,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":44,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 44,
+    effectChance: null
   },
   "153": {
     "identifier":"explosion",
-    "type_id":1,
+    typeId: 1,
     "power":250,
     "pp":5,
     "accuracy":100,
     "priority":0,
-    "target_id":9,
-    "damage_class_id":2,
-    "effect_id":8,
-    "effect_chance":null
+    targetId: 9,
+    damageClassId: 2,
+    effectId: 8,
+    effectChance: null
   },
   "154": {
     "identifier":"fury-swipes",
-    "type_id":1,
+    typeId: 1,
     "power":18,
     "pp":15,
     "accuracy":80,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":30,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 30,
+    effectChance: null
   },
   "155": {
     "identifier":"bonemerang",
-    "type_id":5,
+    typeId: 5,
     "power":50,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":45,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 45,
+    effectChance: null
   },
   "156": {
     "identifier":"rest",
-    "type_id":14,
+    typeId: 14,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":38,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 38,
+    effectChance: null
   },
   "157": {
     "identifier":"rock-slide",
-    "type_id":6,
+    typeId: 6,
     "power":75,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":11,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":30
+    targetId: 11,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 30
   },
   "158": {
     "identifier":"hyper-fang",
-    "type_id":1,
+    typeId: 1,
     "power":80,
     "pp":15,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":32,
-    "effect_chance":10
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 32,
+    effectChance: 10
   },
   "159": {
     "identifier":"sharpen",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":11,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 11,
+    effectChance: null
   },
   "160": {
     "identifier":"conversion",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":30,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":31,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 31,
+    effectChance: null
   },
   "161": {
     "identifier":"tri-attack",
-    "type_id":1,
+    typeId: 1,
     "power":80,
     "pp":10,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":3,
-    "effect_id":37,
-    "effect_chance":20
+    targetId: 10,
+    damageClassId: 3,
+    effectId: 37,
+    effectChance: 20
   },
   "162": {
     "identifier":"super-fang",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":90,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":41,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 41,
+    effectChance: null
   },
   "163": {
     "identifier":"slash",
-    "type_id":1,
+    typeId: 1,
     "power":70,
     "pp":20,
     "accuracy":100,
     "priority":0,
-    "target_id":10,
-    "damage_class_id":2,
-    "effect_id":44,
-    "effect_chance":null
+    targetId: 10,
+    damageClassId: 2,
+    effectId: 44,
+    effectChance: null
   },
   "164": {
     "identifier":"substitute",
-    "type_id":1,
+    typeId: 1,
     "power":null,
     "pp":10,
     "accuracy":null,
     "priority":0,
-    "target_id":7,
-    "damage_class_id":1,
-    "effect_id":80,
-    "effect_chance":null
+    targetId: 7,
+    damageClassId: 1,
+    effectId: 80,
+    effectChance: null
   },
   "165": {
     "identifier":"struggle",
-    "type_id":1,
+    typeId: 1,
     "power":50,
     "pp":null,
     "accuracy":null,
     "priority":0,
-    "target_id":8,
-    "damage_class_id":2,
-    "effect_id":255,
-    "effect_chance":null
+    targetId: 8,
+    damageClassId: 2,
+    effectId: 255,
+    effectChance: null
   },
 };
-const names = {
+const descriptions = {
   "5": {
-    "flavor_text":"A powerful punch thrown very hard."
+    description: "A powerful punch thrown very hard."
   },
   "6": {
-    "flavor_text":"Throws coins. Gets them back later."
+    description: "Throws coins. Gets them back later."
   },
   "7": {
-    "flavor_text":"A fiery punch. May cause a burn."
+    description: "A fiery punch. May cause a burn."
   },
   "8": {
-    "flavor_text":"An icy punch. May cause freezing."
+    description: "An icy punch. May cause freezing."
   },
   "9": {
-    "flavor_text":"An electric punch. It may paralyze."
+    description: "An electric punch. It may paralyze."
   },
   "10": {
-    "flavor_text":"Scratches with sharp claws."
+    description: "Scratches with sharp claws."
   },
   "11": {
-    "flavor_text":"Grips with power­ ful pincers."
+    description: "Grips with power­ ful pincers."
   },
   "12": {
-    "flavor_text":"A one-hit KO, pincer attack."
+    description: "A one-hit KO, pincer attack."
   },
   "13": {
-    "flavor_text":"1st turn: Prepare 2nd turn: Attack"
+    description: "1st turn: Prepare 2nd turn: Attack"
   },
   "14": {
-    "flavor_text":"A dance that in­ creases ATTACK."
+    description: "A dance that in­ creases ATTACK."
   },
   "15": {
-    "flavor_text":"Cuts using claws, scythes, etc."
+    description: "Cuts using claws, scythes, etc."
   },
   "16": {
-    "flavor_text":"Whips up a strong gust of wind."
+    description: "Whips up a strong gust of wind."
   },
   "17": {
-    "flavor_text":"Strikes the target with wings."
+    description: "Strikes the target with wings."
   },
   "18": {
-    "flavor_text":"Blows away the foe & ends battle."
+    description: "Blows away the foe & ends battle."
   },
   "19": {
-    "flavor_text":"1st turn: Fly 2nd turn: Attack"
+    description: "1st turn: Fly 2nd turn: Attack"
   },
   "20": {
-    "flavor_text":"Binds the target for 2-5 turns."
+    description: "Binds the target for 2-5 turns."
   },
   "21": {
-    "flavor_text":"Slams the foe with a tail, vine, etc."
+    description: "Slams the foe with a tail, vine, etc."
   },
   "22": {
-    "flavor_text":"Whips the foe with slender vines."
+    description: "Whips the foe with slender vines."
   },
   "23": {
-    "flavor_text":"An attack that may cause flinching."
+    description: "An attack that may cause flinching."
   },
   "24": {
-    "flavor_text":"A double kicking attack."
+    description: "A double kicking attack."
   },
   "25": {
-    "flavor_text":"A powerful kicking attack."
+    description: "A powerful kicking attack."
   },
   "26": {
-    "flavor_text":"May miss, damaging the user."
+    description: "May miss, damaging the user."
   },
   "27": {
-    "flavor_text":"A fast, spinning kick."
+    description: "A fast, spinning kick."
   },
   "28": {
-    "flavor_text":"Reduces accuracy by throwing sand."
+    description: "Reduces accuracy by throwing sand."
   },
   "29": {
-    "flavor_text":"An attack that may make foe flinch."
+    description: "An attack that may make foe flinch."
   },
   "30": {
-    "flavor_text":"An attack using a horn to jab."
+    description: "An attack using a horn to jab."
   },
   "31": {
-    "flavor_text":"Jabs the target 2-5 times."
+    description: "Jabs the target 2-5 times."
   },
   "32": {
-    "flavor_text":"A one-hit KO, drill attack."
+    description: "A one-hit KO, drill attack."
   },
   "33": {
-    "flavor_text":"A full-body charge attack."
+    description: "A full-body charge attack."
   },
   "34": {
-    "flavor_text":"An attack that may cause paralysis."
+    description: "An attack that may cause paralysis."
   },
   "35": {
-    "flavor_text":"Squeezes the foe for 2-5 turns."
+    description: "Squeezes the foe for 2-5 turns."
   },
   "36": {
-    "flavor_text":"A tackle that also hurts the user."
+    description: "A tackle that also hurts the user."
   },
   "37": {
-    "flavor_text":"Works 2-3 turns and confuses user."
+    description: "Works 2-3 turns and confuses user."
   },
   "38": {
-    "flavor_text":"A tackle that also hurts the user."
+    description: "A tackle that also hurts the user."
   },
   "39": {
-    "flavor_text":"Lowers the foe's DEFENSE."
+    description: "Lowers the foe's DEFENSE."
   },
   "40": {
-    "flavor_text":"An attack that may poison the target."
+    description: "An attack that may poison the target."
   },
   "41": {
-    "flavor_text":"Jabs the foe twice using stingers."
+    description: "Jabs the foe twice using stingers."
   },
   "42": {
-    "flavor_text":"Fires pins that strike 2-5 times."
+    description: "Fires pins that strike 2-5 times."
   },
   "43": {
-    "flavor_text":"Reduces the foe's DEFENSE."
+    description: "Reduces the foe's DEFENSE."
   },
   "44": {
-    "flavor_text":"An attack that may cause flinching."
+    description: "An attack that may cause flinching."
   },
   "45": {
-    "flavor_text":"Reduces the foe's ATTACK."
+    description: "Reduces the foe's ATTACK."
   },
   "46": {
-    "flavor_text":"Scares wild foes to end battle."
+    description: "Scares wild foes to end battle."
   },
   "47": {
-    "flavor_text":"May cause the foe to fall asleep."
+    description: "May cause the foe to fall asleep."
   },
   "48": {
-    "flavor_text":"Sound waves that cause confusion."
+    description: "Sound waves that cause confusion."
   },
   "49": {
-    "flavor_text":"Always inflicts 20HP damage."
+    description: "Always inflicts 20HP damage."
   },
   "50": {
-    "flavor_text":"Disables the foe's most recent move."
+    description: "Disables the foe's most recent move."
   },
   "51": {
-    "flavor_text":"An attack that may lower DEFENSE."
+    description: "An attack that may lower DEFENSE."
   },
   "52": {
-    "flavor_text":"An attack that may inflict a burn."
+    description: "An attack that may inflict a burn."
   },
   "53": {
-    "flavor_text":"An attack that may inflict a burn."
+    description: "An attack that may inflict a burn."
   },
   "54": {
-    "flavor_text":"Prevents stat reduction."
+    description: "Prevents stat reduction."
   },
   "55": {
-    "flavor_text":"Squirts water to attack."
+    description: "Squirts water to attack."
   },
   "56": {
-    "flavor_text":"A powerful water- type attack."
+    description: "A powerful water- type attack."
   },
   "57": {
-    "flavor_text":"A strong water- type attack."
+    description: "A strong water- type attack."
   },
   "58": {
-    "flavor_text":"An attack that may freeze the foe."
+    description: "An attack that may freeze the foe."
   },
   "59": {
-    "flavor_text":"An attack that may freeze the foe."
+    description: "An attack that may freeze the foe."
   },
   "60": {
-    "flavor_text":"An attack that may confuse the foe."
+    description: "An attack that may confuse the foe."
   },
   "61": {
-    "flavor_text":"An attack that may lower SPEED."
+    description: "An attack that may lower SPEED."
   },
   "62": {
-    "flavor_text":"An attack that may lower ATTACK."
+    description: "An attack that may lower ATTACK."
   },
   "63": {
-    "flavor_text":"1st turn: Attack 2nd turn: Rest"
+    description: "1st turn: Attack 2nd turn: Rest"
   },
   "64": {
-    "flavor_text":"Jabs the foe with a beak, etc."
+    description: "Jabs the foe with a beak, etc."
   },
   "65": {
-    "flavor_text":"A strong, spin­ ning-peck attack."
+    description: "A strong, spin­ ning-peck attack."
   },
   "66": {
-    "flavor_text":"An attack that al­ so hurts the user."
+    description: "An attack that al­ so hurts the user."
   },
   "67": {
-    "flavor_text":"An attack that may cause flinching."
+    description: "An attack that may cause flinching."
   },
   "68": {
-    "flavor_text":"Returns a physical blow double."
+    description: "Returns a physical blow double."
   },
   "69": {
-    "flavor_text":"The user's level equals damage HP."
+    description: "The user's level equals damage HP."
   },
   "70": {
-    "flavor_text":"A powerful physi­ cal attack."
+    description: "A powerful physi­ cal attack."
   },
   "71": {
-    "flavor_text":"Steals 1/2 of the damage inflicted."
+    description: "Steals 1/2 of the damage inflicted."
   },
   "72": {
-    "flavor_text":"Steals 1/2 of the damage inflicted."
+    description: "Steals 1/2 of the damage inflicted."
   },
   "73": {
-    "flavor_text":"Steals HP from the foe on every turn."
+    description: "Steals HP from the foe on every turn."
   },
   "74": {
-    "flavor_text":"Raises the SPCL. ATK rating."
+    description: "Raises the SPCL. ATK rating."
   },
   "75": {
-    "flavor_text":"Has a high criti­ cal hit ratio."
+    description: "Has a high criti­ cal hit ratio."
   },
   "76": {
-    "flavor_text":"1st turn: Prepare 2nd turn: Attack"
+    description: "1st turn: Prepare 2nd turn: Attack"
   },
   "77": {
-    "flavor_text":"A move that may poison the foe."
+    description: "A move that may poison the foe."
   },
   "78": {
-    "flavor_text":"A move that may paralyze the foe."
+    description: "A move that may paralyze the foe."
   },
   "79": {
-    "flavor_text":"May cause the foe to fall asleep."
+    description: "May cause the foe to fall asleep."
   },
   "80": {
-    "flavor_text":"Works 2-3 turns and confuses user."
+    description: "Works 2-3 turns and confuses user."
   },
   "81": {
-    "flavor_text":"A move that lowers the foe's SPEED."
+    description: "A move that lowers the foe's SPEED."
   },
   "82": {
-    "flavor_text":"Always inflicts 40HP damage."
+    description: "Always inflicts 40HP damage."
   },
   "83": {
-    "flavor_text":"Traps foe in fire for 2-5 turns."
+    description: "Traps foe in fire for 2-5 turns."
   },
   "84": {
-    "flavor_text":"An attack that may cause paralysis."
+    description: "An attack that may cause paralysis."
   },
   "85": {
-    "flavor_text":"An attack that may cause paralysis."
+    description: "An attack that may cause paralysis."
   },
   "86": {
-    "flavor_text":"A move that may cause paralysis."
+    description: "A move that may cause paralysis."
   },
   "87": {
-    "flavor_text":"An attack that may cause paralysis."
+    description: "An attack that may cause paralysis."
   },
   "88": {
-    "flavor_text":"Drops rocks on the enemy."
+    description: "Drops rocks on the enemy."
   },
   "89": {
-    "flavor_text":"Tough but useless vs. flying foes."
+    description: "Tough but useless vs. flying foes."
   },
   "90": {
-    "flavor_text":"A ground-type, one-hit KO attack."
+    description: "A ground-type, one-hit KO attack."
   },
   "91": {
-    "flavor_text":"1st turn: Burrow 2nd turn: Attack"
+    description: "1st turn: Burrow 2nd turn: Attack"
   },
   "92": {
-    "flavor_text":"A poison move with increasing damage."
+    description: "A poison move with increasing damage."
   },
   "93": {
-    "flavor_text":"An attack that may cause confusion."
+    description: "An attack that may cause confusion."
   },
   "94": {
-    "flavor_text":"An attack that may lower SPCL.DEF."
+    description: "An attack that may lower SPCL.DEF."
   },
   "95": {
-    "flavor_text":"May put the foe to sleep."
+    description: "May put the foe to sleep."
   },
   "96": {
-    "flavor_text":"Raises the user's ATTACK."
+    description: "Raises the user's ATTACK."
   },
   "97": {
-    "flavor_text":"Sharply increases the user's SPEED."
+    description: "Sharply increases the user's SPEED."
   },
   "98": {
-    "flavor_text":"Lets the user get in the first hit."
+    description: "Lets the user get in the first hit."
   },
   "99": {
-    "flavor_text":"Raises ATTACK if the user is hit."
+    description: "Raises ATTACK if the user is hit."
   },
   "100": {
-    "flavor_text":"A move for fleeing from battle."
+    description: "A move for fleeing from battle."
   },
   "101": {
-    "flavor_text":"The user's level equals damage HP."
+    description: "The user's level equals damage HP."
   },
   "102": {
-    "flavor_text":"Copies a move used by the foe."
+    description: "Copies a move used by the foe."
   },
   "103": {
-    "flavor_text":"Sharply reduces the foe's DEFENSE."
+    description: "Sharply reduces the foe's DEFENSE."
   },
   "104": {
-    "flavor_text":"Heightens evasive­ ness."
+    description: "Heightens evasive­ ness."
   },
   "105": {
-    "flavor_text":"Restores HP by 1/2 the max HP."
+    description: "Restores HP by 1/2 the max HP."
   },
   "106": {
-    "flavor_text":"Raises the user's DEFENSE."
+    description: "Raises the user's DEFENSE."
   },
   "107": {
-    "flavor_text":"Heightens evasive­ ness."
+    description: "Heightens evasive­ ness."
   },
   "108": {
-    "flavor_text":"Lowers the foe's accuracy."
+    description: "Lowers the foe's accuracy."
   },
   "109": {
-    "flavor_text":"A move that causes confusion."
+    description: "A move that causes confusion."
   },
   "110": {
-    "flavor_text":"Heightens the user's DEFENSE."
+    description: "Heightens the user's DEFENSE."
   },
   "111": {
-    "flavor_text":"Heightens the user's DEFENSE."
+    description: "Heightens the user's DEFENSE."
   },
   "112": {
-    "flavor_text":"Sharply increases user's DEFENSE."
+    description: "Sharply increases user's DEFENSE."
   },
   "113": {
-    "flavor_text":"Ups SPCL.DEF with a wall of light."
+    description: "Ups SPCL.DEF with a wall of light."
   },
   "114": {
-    "flavor_text":"Eliminates all stat changes."
+    description: "Eliminates all stat changes."
   },
   "115": {
-    "flavor_text":"Raises DEFENSE with a barrier."
+    description: "Raises DEFENSE with a barrier."
   },
   "116": {
-    "flavor_text":"Raises the criti­ cal hit ratio."
+    description: "Raises the criti­ cal hit ratio."
   },
   "117": {
-    "flavor_text":"Waits 2-3 turns & hits back double."
+    description: "Waits 2-3 turns & hits back double."
   },
   "118": {
-    "flavor_text":"Randomly uses any POKéMON move."
+    description: "Randomly uses any POKéMON move."
   },
   "119": {
-    "flavor_text":"Counters with the same move."
+    description: "Counters with the same move."
   },
   "120": {
-    "flavor_text":"Powerful but makes the user faint."
+    description: "Powerful but makes the user faint."
   },
   "121": {
-    "flavor_text":"Eggs are hurled at the foe."
+    description: "Eggs are hurled at the foe."
   },
   "122": {
-    "flavor_text":"An attack that may cause paralysis."
+    description: "An attack that may cause paralysis."
   },
   "123": {
-    "flavor_text":"An attack that may poison the foe."
+    description: "An attack that may poison the foe."
   },
   "124": {
-    "flavor_text":"An attack that may poison the foe."
+    description: "An attack that may poison the foe."
   },
   "125": {
-    "flavor_text":"An attack that may cause flinching."
+    description: "An attack that may cause flinching."
   },
   "126": {
-    "flavor_text":"An attack that may cause a burn."
+    description: "An attack that may cause a burn."
   },
   "127": {
-    "flavor_text":"An aquatic charge attack."
+    description: "An aquatic charge attack."
   },
   "128": {
-    "flavor_text":"Traps the foe for 2-5 turns."
+    description: "Traps the foe for 2-5 turns."
   },
   "129": {
-    "flavor_text":"An attack that never misses."
+    description: "An attack that never misses."
   },
   "130": {
-    "flavor_text":"1st turn: Prepare 2nd turn: Attack"
+    description: "1st turn: Prepare 2nd turn: Attack"
   },
   "131": {
-    "flavor_text":"Fires spikes to hit 2-5 times."
+    description: "Fires spikes to hit 2-5 times."
   },
   "132": {
-    "flavor_text":"An attack that may lower SPEED."
+    description: "An attack that may lower SPEED."
   },
   "133": {
-    "flavor_text":"Sharply raises the user's SPCL.DEF."
+    description: "Sharply raises the user's SPCL.DEF."
   },
   "134": {
-    "flavor_text":"Reduces the foe's accuracy."
+    description: "Reduces the foe's accuracy."
   },
   "135": {
-    "flavor_text":"Restores HP by 1/2 the user's max HP."
+    description: "Restores HP by 1/2 the user's max HP."
   },
   "136": {
-    "flavor_text":"May miss and hurt the user."
+    description: "May miss and hurt the user."
   },
   "137": {
-    "flavor_text":"A move that may cause paralysis."
+    description: "A move that may cause paralysis."
   },
   "138": {
-    "flavor_text":"Steals HP from a sleeping victim."
+    description: "Steals HP from a sleeping victim."
   },
   "139": {
-    "flavor_text":"A move that may poison the foe."
+    description: "A move that may poison the foe."
   },
   "140": {
-    "flavor_text":"Throws orbs to hit 2-5 times."
+    description: "Throws orbs to hit 2-5 times."
   },
   "141": {
-    "flavor_text":"Steals 1/2 of the damage inflicted."
+    description: "Steals 1/2 of the damage inflicted."
   },
   "142": {
-    "flavor_text":"May cause the foe to fall asleep."
+    description: "May cause the foe to fall asleep."
   },
   "143": {
-    "flavor_text":"1st turn: Prepare 2nd turn: Attack"
+    description: "1st turn: Prepare 2nd turn: Attack"
   },
   "144": {
-    "flavor_text":"The user assumes the foe's guise."
+    description: "The user assumes the foe's guise."
   },
   "145": {
-    "flavor_text":"An attack that may reduce SPEED."
+    description: "An attack that may reduce SPEED."
   },
   "146": {
-    "flavor_text":"An attack that may cause confusion."
+    description: "An attack that may cause confusion."
   },
   "147": {
-    "flavor_text":"A move that induces sleep."
+    description: "A move that induces sleep."
   },
   "148": {
-    "flavor_text":"Blinds the foe to reduce accuracy."
+    description: "Blinds the foe to reduce accuracy."
   },
   "149": {
-    "flavor_text":"An attack with variable power."
+    description: "An attack with variable power."
   },
   "150": {
-    "flavor_text":"Has no effect whatsoever."
+    description: "Has no effect whatsoever."
   },
   "151": {
-    "flavor_text":"Sharply raises the user's DEFENSE."
+    description: "Sharply raises the user's DEFENSE."
   },
   "152": {
-    "flavor_text":"Has a high criti­ cal hit ratio."
+    description: "Has a high criti­ cal hit ratio."
   },
   "153": {
-    "flavor_text":"Very powerful but makes user faint."
+    description: "Very powerful but makes user faint."
   },
   "154": {
-    "flavor_text":"Quickly scratches 2-5 times."
+    description: "Quickly scratches 2-5 times."
   },
   "155": {
-    "flavor_text":"An attack that strikes twice."
+    description: "An attack that strikes twice."
   },
   "156": {
-    "flavor_text":"Sleep for 2 turns to fully recover."
+    description: "Sleep for 2 turns to fully recover."
   },
   "157": {
-    "flavor_text":"An attack that may cause flinching."
+    description: "An attack that may cause flinching."
   },
   "158": {
-    "flavor_text":"An attack that may cause flinching."
+    description: "An attack that may cause flinching."
   },
   "159": {
-    "flavor_text":"A move that raises the user's ATTACK."
+    description: "A move that raises the user's ATTACK."
   },
   "160": {
-    "flavor_text":"Change user's type to a move's type."
+    description: "Change user's type to a move's type."
   },
   "161": {
-    "flavor_text":"Fires three kinds of beams at once."
+    description: "Fires three kinds of beams at once."
   },
   "162": {
-    "flavor_text":"Cuts the foe's HP by 1/2."
+    description: "Cuts the foe's HP by 1/2."
   },
   "163": {
-    "flavor_text":"Has a high criti­ cal hit ratio."
+    description: "Has a high criti­ cal hit ratio."
   },
   "164": {
-    "flavor_text":"Makes a decoy with 1/4 user's max HP."
+    description: "Makes a decoy with 1/4 user's max HP."
   },
   "165": {
-    "flavor_text":"Used only if all PP are exhausted."
+    description: "Used only if all PP are exhausted."
   },
 }
 
 const stats =
 {
   "14": {
-    "stat_id":2,
-    "stat_change":2
+    statId: 2,
+    statChange: 2
   },
   "28": {
-    "stat_id":7,
-    "stat_change":-1
+    statId: 7,
+    statChange: -1
   },
   "39": {
-    "stat_id":3,
-    "stat_change":-1
+    statId: 3,
+    statChange: -1
   },
   "43": {
-    "stat_id":3,
-    "stat_change":-1
+    statId: 3,
+    statChange: -1
   },
   "45": {
-    "stat_id":2,
-    "stat_change":-1
+    statId: 2,
+    statChange: -1
   },
   "51": {
-    "stat_id":5,
-    "stat_change":-1
+    statId: 5,
+    statChange: -1
   },
   "61": {
-    "stat_id":6,
-    "stat_change":-1
+    statId: 6,
+    statChange: -1
   },
   "62": {
-    "stat_id":2,
-    "stat_change":-1
+    statId: 2,
+    statChange: -1
   },
   "74": {
-    "stat_id":2,
-    "stat_change":1
+    statId: 2,
+    statChange: 1
   },
   "74": {
-    "stat_id":4,
-    "stat_change":1
+    statId: 4,
+    statChange: 1
   },
   "81": {
-    "stat_id":6,
-    "stat_change":-2
+    statId: 6,
+    statChange: -2
   },
   "94": {
-    "stat_id":5,
-    "stat_change":-1
+    statId: 5,
+    statChange: -1
   },
   "96": {
-    "stat_id":2,
-    "stat_change":1
+    statId: 2,
+    statChange: 1
   },
   "97": {
-    "stat_id":6,
-    "stat_change":2
+    statId: 6,
+    statChange: 2
   },
   "103": {
-    "stat_id":3,
-    "stat_change":-2
+    statId: 3,
+    statChange: -2
   },
   "104": {
-    "stat_id":8,
-    "stat_change":1
+    statId: 8,
+    statChange: 1
   },
   "106": {
-    "stat_id":3,
-    "stat_change":1
+    statId: 3,
+    statChange: 1
   },
   "107": {
-    "stat_id":8,
-    "stat_change":2
+    statId: 8,
+    statChange: 2
   },
   "108": {
-    "stat_id":7,
-    "stat_change":-1
+    statId: 7,
+    statChange: -1
   },
   "110": {
-    "stat_id":3,
-    "stat_change":1
+    statId: 3,
+    statChange: 1
   },
   "111": {
-    "stat_id":3,
-    "stat_change":1
+    statId: 3,
+    statChange: 1
   },
   "112": {
-    "stat_id":3,
-    "stat_change":2
+    statId: 3,
+    statChange: 2
   },
   "132": {
-    "stat_id":6,
-    "stat_change":-1
+    statId: 6,
+    statChange: -1
   },
   "133": {
-    "stat_id":5,
-    "stat_change":2
+    statId: 5,
+    statChange: 2
   },
   "134": {
-    "stat_id":7,
-    "stat_change":-1
+    statId: 7,
+    statChange: -1
   },
   "145": {
-    "stat_id":6,
-    "stat_change":-1
+    statId: 6,
+    statChange: -1
   },
   "148": {
-    "stat_id":7,
-    "stat_change":-1
+    statId: 7,
+    statChange: -1
   },
   "151": {
-    "stat_id":3,
-    "stat_change":2
+    statId: 3,
+    statChange: 2
   },
   "159": {
-    "stat_id":2,
-    "stat_change":1
+    statId: 2,
+    statChange: 1
   },
 }
 
 const meta = {
   "1": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "2": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":1,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 1,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "3": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "4": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "5": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "6": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "7": {
-    "category_id":4,
-    "ailment_id":4,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 4,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "8": {
-    "category_id":4,
-    "ailment_id":3,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 3,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "9": {
-    "category_id":4,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "10": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "11": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "12": {
-    "category_id":9,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "13": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":1,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 1,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "14": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "15": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "16": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "17": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "18": {
-    "category_id":12,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "19": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "20": {
-    "category_id":4,
-    "ailment_id":8,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":5,
-    "max_turns":6,
+    ailmentId: 8,
+    minHits: null,
+    maxHits: null,
+    minTurns: 5,
+    maxTurns: 6,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":100,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 100,
+    flinchChance: 0,
+    statChance: 0
   },
   "21": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "22": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "23": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":30,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 30,
+    statChance: 0
   },
   "24": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":2,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 2,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "25": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "26": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "27": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":30,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 30,
+    statChance: 0
   },
   "28": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "29": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":30,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 30,
+    statChance: 0
   },
   "30": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "31": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "32": {
-    "category_id":9,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "33": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "34": {
-    "category_id":4,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":30,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 30,
+    flinchChance: 0,
+    statChance: 0
   },
   "35": {
-    "category_id":4,
-    "ailment_id":8,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":5,
-    "max_turns":6,
+    ailmentId: 8,
+    minHits: null,
+    maxHits: null,
+    minTurns: 5,
+    maxTurns: 6,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":100,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 100,
+    flinchChance: 0,
+    statChance: 0
   },
   "36": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":-25,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "37": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "38": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":-33,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "39": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "40": {
-    "category_id":4,
-    "ailment_id":5,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 5,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":30,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 30,
+    flinchChance: 0,
+    statChance: 0
   },
   "41": {
-    "category_id":4,
-    "ailment_id":5,
-    "min_hits":2,
-    "max_hits":2,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 5,
+    minHits: 2,
+    maxHits: 2,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":20,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 20,
+    flinchChance: 0,
+    statChance: 0
   },
   "42": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "43": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":100
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 100
   },
   "44": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":30,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 30,
+    statChance: 0
   },
   "45": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "46": {
-    "category_id":12,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "47": {
-    "category_id":1,
-    "ailment_id":2,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":4,
+    ailmentId: 2,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 4,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "48": {
-    "category_id":1,
-    "ailment_id":6,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":5,
+    ailmentId: 6,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 5,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "49": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "50": {
-    "category_id":13,
-    "ailment_id":13,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":4,
-    "max_turns":4,
+    ailmentId: 13,
+    minHits: null,
+    maxHits: null,
+    minTurns: 4,
+    maxTurns: 4,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "51": {
-    "category_id":6,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":10
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 10
   },
   "52": {
-    "category_id":4,
-    "ailment_id":4,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 4,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "53": {
-    "category_id":4,
-    "ailment_id":4,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 4,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "54": {
-    "category_id":11,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "55": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "56": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "57": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "58": {
-    "category_id":4,
-    "ailment_id":3,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 3,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "59": {
-    "category_id":4,
-    "ailment_id":3,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 3,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "60": {
-    "category_id":4,
-    "ailment_id":6,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":5,
+    ailmentId: 6,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 5,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "61": {
-    "category_id":6,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":10
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 10
   },
   "62": {
-    "category_id":6,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":10
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 10
   },
   "63": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "64": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "65": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "66": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":-25,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "67": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "68": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "69": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "70": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "71": {
-    "category_id":8,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":50,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "72": {
-    "category_id":8,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":50,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "73": {
-    "category_id":1,
-    "ailment_id":18,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 18,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "74": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "75": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":1,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 1,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "76": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "77": {
-    "category_id":1,
-    "ailment_id":5,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 5,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "78": {
-    "category_id":1,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "79": {
-    "category_id":1,
-    "ailment_id":2,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":4,
+    ailmentId: 2,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 4,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "80": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "81": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "82": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "83": {
-    "category_id":4,
-    "ailment_id":8,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":5,
-    "max_turns":6,
+    ailmentId: 8,
+    minHits: null,
+    maxHits: null,
+    minTurns: 5,
+    maxTurns: 6,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":100,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 100,
+    flinchChance: 0,
+    statChance: 0
   },
   "84": {
-    "category_id":4,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "85": {
-    "category_id":4,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "86": {
-    "category_id":1,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "87": {
-    "category_id":4,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":30,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 30,
+    flinchChance: 0,
+    statChance: 0
   },
   "88": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "89": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "90": {
-    "category_id":9,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "91": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "92": {
-    "category_id":1,
-    "ailment_id":5,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":15,
-    "max_turns":15,
+    ailmentId: 5,
+    minHits: null,
+    maxHits: null,
+    minTurns: 15,
+    maxTurns: 15,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "93": {
-    "category_id":4,
-    "ailment_id":6,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":5,
+    ailmentId: 6,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 5,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "94": {
-    "category_id":6,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":10
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 10
   },
   "95": {
-    "category_id":1,
-    "ailment_id":2,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":4,
+    ailmentId: 2,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 4,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "96": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "97": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "98": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "99": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "100": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "101": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "102": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "103": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "104": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "105": {
-    "category_id":3,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":50,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "106": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "107": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "108": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "109": {
-    "category_id":1,
-    "ailment_id":6,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":5,
+    ailmentId: 6,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 5,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "110": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "111": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "112": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "113": {
-    "category_id":11,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "114": {
-    "category_id":10,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "115": {
-    "category_id":11,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "116": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "117": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "118": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "119": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "120": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "121": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "122": {
-    "category_id":4,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":30,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 30,
+    flinchChance: 0,
+    statChance: 0
   },
   "123": {
-    "category_id":4,
-    "ailment_id":5,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 5,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":40,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 40,
+    flinchChance: 0,
+    statChance: 0
   },
   "124": {
-    "category_id":4,
-    "ailment_id":5,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 5,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":30,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 30,
+    flinchChance: 0,
+    statChance: 0
   },
   "125": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":10,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 10,
+    statChance: 0
   },
   "126": {
-    "category_id":4,
-    "ailment_id":4,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 4,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":10,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 10,
+    flinchChance: 0,
+    statChance: 0
   },
   "127": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":20,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 20,
+    statChance: 0
   },
   "128": {
-    "category_id":4,
-    "ailment_id":8,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":5,
-    "max_turns":6,
+    ailmentId: 8,
+    minHits: null,
+    maxHits: null,
+    minTurns: 5,
+    maxTurns: 6,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":100,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 100,
+    flinchChance: 0,
+    statChance: 0
   },
   "129": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "130": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":100,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 100,
+    flinchChance: 0,
+    statChance: 0
   },
   "131": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "132": {
-    "category_id":6,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":10
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 10
   },
   "133": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "134": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "135": {
-    "category_id":3,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":50,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "136": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "137": {
-    "category_id":1,
-    "ailment_id":1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "138": {
-    "category_id":8,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":50,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "139": {
-    "category_id":1,
-    "ailment_id":5,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 5,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "140": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "141": {
-    "category_id":8,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":50,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "142": {
-    "category_id":1,
-    "ailment_id":2,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":4,
+    ailmentId: 2,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 4,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "143": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":1,
-    "ailment_chance":0,
-    "flinch_chance":30,
-    "stat_chance":0
+    critRate: 1,
+    ailmentChance: 0,
+    flinchChance: 30,
+    statChance: 0
   },
   "144": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "145": {
-    "category_id":6,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":10
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 10
   },
   "146": {
-    "category_id":4,
-    "ailment_id":6,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":5,
+    ailmentId: 6,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 5,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":20,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 20,
+    flinchChance: 0,
+    statChance: 0
   },
   "147": {
-    "category_id":1,
-    "ailment_id":2,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":2,
-    "max_turns":4,
+    ailmentId: 2,
+    minHits: null,
+    maxHits: null,
+    minTurns: 2,
+    maxTurns: 4,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "148": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "149": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "150": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "151": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "152": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":1,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 1,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "153": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "154": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":5,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 5,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "155": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":2,
-    "max_hits":2,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: 2,
+    maxHits: 2,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "156": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "157": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":30,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 30,
+    statChance: 0
   },
   "158": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":10,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 10,
+    statChance: 0
   },
   "159": {
-    "category_id":2,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "160": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "161": {
-    "category_id":4,
-    "ailment_id":-1,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: -1,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":20,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 20,
+    flinchChance: 0,
+    statChance: 0
   },
   "162": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "163": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":1,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 1,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "164": {
-    "category_id":13,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":0,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
   "165": {
-    "category_id":0,
-    "ailment_id":0,
-    "min_hits":null,
-    "max_hits":null,
-    "min_turns":null,
-    "max_turns":null,
+    ailmentId: 0,
+    minHits: null,
+    maxHits: null,
+    minTurns: null,
+    maxTurns: null,
     "drain":0,
     "healing":-25,
-    "crit_rate":0,
-    "ailment_chance":0,
-    "flinch_chance":0,
-    "stat_chance":0
+    critRate: 0,
+    ailmentChance: 0,
+    flinchChance: 0,
+    statChance: 0
   },
 }
 
-const data = Object.assign({}, moves, names, meta, stats);
+const names = {
+  "1": {
+    "name":"Pound"
+  },
+  "2": {
+    "name":"Karate Chop"
+  },
+  "3": {
+    "name":"Double Slap"
+  },
+  "4": {
+    "name":"Comet Punch"
+  },
+  "5": {
+    "name":"Mega Punch"
+  },
+  "6": {
+    "name":"Pay Day"
+  },
+  "7": {
+    "name":"Fire Punch"
+  },
+  "8": {
+    "name":"Ice Punch"
+  },
+  "9": {
+    "name":"Thunder Punch"
+  },
+  "10": {
+    "name":"Scratch"
+  },
+  "11": {
+    "name":"Vice Grip"
+  },
+  "12": {
+    "name":"Guillotine"
+  },
+  "13": {
+    "name":"Razor Wind"
+  },
+  "14": {
+    "name":"Swords Dance"
+  },
+  "15": {
+    "name":"Cut"
+  },
+  "16": {
+    "name":"Gust"
+  },
+  "17": {
+    "name":"Wing Attack"
+  },
+  "18": {
+    "name":"Whirlwind"
+  },
+  "19": {
+    "name":"Fly"
+  },
+  "20": {
+    "name":"Bind"
+  },
+  "21": {
+    "name":"Slam"
+  },
+  "22": {
+    "name":"Vine Whip"
+  },
+  "23": {
+    "name":"Stomp"
+  },
+  "24": {
+    "name":"Double Kick"
+  },
+  "25": {
+    "name":"Mega Kick"
+  },
+  "26": {
+    "name":"Jump Kick"
+  },
+  "27": {
+    "name":"Rolling Kick"
+  },
+  "28": {
+    "name":"Sand Attack"
+  },
+  "29": {
+    "name":"Headbutt"
+  },
+  "30": {
+    "name":"Horn Attack"
+  },
+  "31": {
+    "name":"Fury Attack"
+  },
+  "32": {
+    "name":"Horn Drill"
+  },
+  "33": {
+    "name":"Tackle"
+  },
+  "34": {
+    "name":"Body Slam"
+  },
+  "35": {
+    "name":"Wrap"
+  },
+  "36": {
+    "name":"Take Down"
+  },
+  "37": {
+    "name":"Thrash"
+  },
+  "38": {
+    "name":"Double-Edge"
+  },
+  "39": {
+    "name":"Tail Whip"
+  },
+  "40": {
+    "name":"Poison Sting"
+  },
+  "41": {
+    "name":"Twineedle"
+  },
+  "42": {
+    "name":"Pin Missile"
+  },
+  "43": {
+    "name":"Leer"
+  },
+  "44": {
+    "name":"Bite"
+  },
+  "45": {
+    "name":"Growl"
+  },
+  "46": {
+    "name":"Roar"
+  },
+  "47": {
+    "name":"Sing"
+  },
+  "48": {
+    "name":"Supersonic"
+  },
+  "49": {
+    "name":"Sonic Boom"
+  },
+  "50": {
+    "name":"Disable"
+  },
+  "51": {
+    "name":"Acid"
+  },
+  "52": {
+    "name":"Ember"
+  },
+  "53": {
+    "name":"Flamethrower"
+  },
+  "54": {
+    "name":"Mist"
+  },
+  "55": {
+    "name":"Water Gun"
+  },
+  "56": {
+    "name":"Hydro Pump"
+  },
+  "57": {
+    "name":"Surf"
+  },
+  "58": {
+    "name":"Ice Beam"
+  },
+  "59": {
+    "name":"Blizzard"
+  },
+  "60": {
+    "name":"Psybeam"
+  },
+  "61": {
+    "name":"Bubble Beam"
+  },
+  "62": {
+    "name":"Aurora Beam"
+  },
+  "63": {
+    "name":"Hyper Beam"
+  },
+  "64": {
+    "name":"Peck"
+  },
+  "65": {
+    "name":"Drill Peck"
+  },
+  "66": {
+    "name":"Submission"
+  },
+  "67": {
+    "name":"Low Kick"
+  },
+  "68": {
+    "name":"Counter"
+  },
+  "69": {
+    "name":"Seismic Toss"
+  },
+  "70": {
+    "name":"Strength"
+  },
+  "71": {
+    "name":"Absorb"
+  },
+  "72": {
+    "name":"Mega Drain"
+  },
+  "73": {
+    "name":"Leech Seed"
+  },
+  "74": {
+    "name":"Growth"
+  },
+  "75": {
+    "name":"Razor Leaf"
+  },
+  "76": {
+    "name":"Solar Beam"
+  },
+  "77": {
+    "name":"Poison Powder"
+  },
+  "78": {
+    "name":"Stun Spore"
+  },
+  "79": {
+    "name":"Sleep Powder"
+  },
+  "80": {
+    "name":"Petal Dance"
+  },
+  "81": {
+    "name":"String Shot"
+  },
+  "82": {
+    "name":"Dragon Rage"
+  },
+  "83": {
+    "name":"Fire Spin"
+  },
+  "84": {
+    "name":"Thunder Shock"
+  },
+  "85": {
+    "name":"Thunderbolt"
+  },
+  "86": {
+    "name":"Thunder Wave"
+  },
+  "87": {
+    "name":"Thunder"
+  },
+  "88": {
+    "name":"Rock Throw"
+  },
+  "89": {
+    "name":"Earthquake"
+  },
+  "90": {
+    "name":"Fissure"
+  },
+  "91": {
+    "name":"Dig"
+  },
+  "92": {
+    "name":"Toxic"
+  },
+  "93": {
+    "name":"Confusion"
+  },
+  "94": {
+    "name":"Psychic"
+  },
+  "95": {
+    "name":"Hypnosis"
+  },
+  "96": {
+    "name":"Meditate"
+  },
+  "97": {
+    "name":"Agility"
+  },
+  "98": {
+    "name":"Quick Attack"
+  },
+  "99": {
+    "name":"Rage"
+  },
+  "100": {
+    "name":"Teleport"
+  },
+  "101": {
+    "name":"Night Shade"
+  },
+  "102": {
+    "name":"Mimic"
+  },
+  "103": {
+    "name":"Screech"
+  },
+  "104": {
+    "name":"Double Team"
+  },
+  "105": {
+    "name":"Recover"
+  },
+  "106": {
+    "name":"Harden"
+  },
+  "107": {
+    "name":"Minimize"
+  },
+  "108": {
+    "name":"Smokescreen"
+  },
+  "109": {
+    "name":"Confuse Ray"
+  },
+  "110": {
+    "name":"Withdraw"
+  },
+  "111": {
+    "name":"Defense Curl"
+  },
+  "112": {
+    "name":"Barrier"
+  },
+  "113": {
+    "name":"Light Screen"
+  },
+  "114": {
+    "name":"Haze"
+  },
+  "115": {
+    "name":"Reflect"
+  },
+  "116": {
+    "name":"Focus Energy"
+  },
+  "117": {
+    "name":"Bide"
+  },
+  "118": {
+    "name":"Metronome"
+  },
+  "119": {
+    "name":"Mirror Move"
+  },
+  "120": {
+    "name":"Self-Destruct"
+  },
+  "121": {
+    "name":"Egg Bomb"
+  },
+  "122": {
+    "name":"Lick"
+  },
+  "123": {
+    "name":"Smog"
+  },
+  "124": {
+    "name":"Sludge"
+  },
+  "125": {
+    "name":"Bone Club"
+  },
+  "126": {
+    "name":"Fire Blast"
+  },
+  "127": {
+    "name":"Waterfall"
+  },
+  "128": {
+    "name":"Clamp"
+  },
+  "129": {
+    "name":"Swift"
+  },
+  "130": {
+    "name":"Skull Bash"
+  },
+  "131": {
+    "name":"Spike Cannon"
+  },
+  "132": {
+    "name":"Constrict"
+  },
+  "133": {
+    "name":"Amnesia"
+  },
+  "134": {
+    "name":"Kinesis"
+  },
+  "135": {
+    "name":"Soft-Boiled"
+  },
+  "136": {
+    "name":"High Jump Kick"
+  },
+  "137": {
+    "name":"Glare"
+  },
+  "138": {
+    "name":"Dream Eater"
+  },
+  "139": {
+    "name":"Poison Gas"
+  },
+  "140": {
+    "name":"Barrage"
+  },
+  "141": {
+    "name":"Leech Life"
+  },
+  "142": {
+    "name":"Lovely Kiss"
+  },
+  "143": {
+    "name":"Sky Attack"
+  },
+  "144": {
+    "name":"Transform"
+  },
+  "145": {
+    "name":"Bubble"
+  },
+  "146": {
+    "name":"Dizzy Punch"
+  },
+  "147": {
+    "name":"Spore"
+  },
+  "148": {
+    "name":"Flash"
+  },
+  "149": {
+    "name":"Psywave"
+  },
+  "150": {
+    "name":"Splash"
+  },
+  "151": {
+    "name":"Acid Armor"
+  },
+  "152": {
+    "name":"Crabhammer"
+  },
+  "153": {
+    "name":"Explosion"
+  },
+  "154": {
+    "name":"Fury Swipes"
+  },
+  "155": {
+    "name":"Bonemerang"
+  },
+  "156": {
+    "name":"Rest"
+  },
+  "157": {
+    "name":"Rock Slide"
+  },
+  "158": {
+    "name":"Hyper Fang"
+  },
+  "159": {
+    "name":"Sharpen"
+  },
+  "160": {
+    "name":"Conversion"
+  },
+  "161": {
+    "name":"Tri Attack"
+  },
+  "162": {
+    "name":"Super Fang"
+  },
+  "163": {
+    "name":"Slash"
+  },
+  "164": {
+    "name":"Substitute"
+  },
+  "165": {
+    "name":"Struggle"
+  },
+}
+
+const data = Object.assign({}, moves, descriptions, meta, stats, names);
 
 class Move extends Object {}
 

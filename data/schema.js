@@ -131,7 +131,7 @@ const {nodeInterface, nodeField} = nodeDefinitions(
     } else if (obj instanceof MoveLearningMethod) {
       return moveLearningMethodType;
     } else if (obj instanceof MoveTarget) {
-      return moveTarget;
+      return moveTargetType;
     } else if (obj instanceof PokemonHabitat) {
       return pokemonHabitatType;
     } else if (obj instanceof Pokemon) {
@@ -267,6 +267,372 @@ const growthRateType = new GraphQLObjectType({
       type: GraphQLString,
       description: '',
     },
+    xp: {
+      type: GraphQLList,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const moveCategoryType = new GraphQLObjectType({
+  name: 'MoveCategory',
+  description: '',
+  fields: () => ({
+    id: globalIdField('MoveCategory'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    description: {
+      type: GraphQLString,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const moveLearningMethodType = new GraphQLObjectType({
+  name: 'MoveLearningMethod',
+  description: '',
+  fields: () => ({
+    id: globalIdField('MoveLearningMethod'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    description: {
+      type: GraphQLString,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const moveTargetType = new GraphQLObjectType({
+  name: 'MoveTarget',
+  description: '',
+  fields: () => ({
+    id: globalIdField('MoveTarget'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    description: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const pokemonHabitatType = new GraphQLObjectType({
+  name: 'PokemonHabitat',
+  description: '',
+  fields: () => ({
+    id: globalIdField('PokemonHabitat'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const pokemonShapeType = new GraphQLObjectType({
+  name: 'PokemonShape',
+  description: '',
+  fields: () => ({
+    id: globalIdField('PokemonShape'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+    awesomeName: {
+      type: GraphQLString,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const statType = new GraphQLObjectType({
+  name: 'Stat',
+  description: '',
+  fields: () => ({
+    id: globalIdField('Stat'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+    damageClassId: {
+      type: damageClassType,
+      description: '',
+      resolve: stat => getDamageClass(stat.damageClassId),
+    },
+    isBattleOnly: {
+      type: GraphQLBoolean,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const typeType = new GraphQLObjectType({
+  name: 'Type',
+  description: '',
+  fields: () => ({
+    id: globalIdField('Type'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+    damageClass: {
+      type: damageClassType,
+      description: '',
+      resolve: type => getDamageClass(type.damageClassId),
+    },
+    // TODO efficacity: {
+    //   type: GraphQL,
+    //   description: '',
+    // },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const moveType = new GraphQLObjectType({
+  name: 'Move',
+  description: '',
+  fields: () => ({
+    id: globalIdField('Move'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+    description: {
+      type: GraphQLString,
+      description: '',
+    },
+    type: {
+      type: typeType,
+      description: '',
+      resolve: move => getType(move.typeId),
+    },
+    power: {
+      type: GraphQLInt,
+      description: '',
+    },
+    pp: {
+      type: GraphQLInt,
+      description: '',
+    },
+    accuracy: {
+      type: GraphQLInt,
+      description: '',
+    },
+    priority: {
+      type: GraphQLInt,
+      description: '',
+    },
+    effectChance: {
+      type: GraphQLInt,
+      description: '',
+    },
+    target: {
+      type: moveTargetType,
+      description: '',
+      resolve: move => getMoveTarget(move.targetId),
+    },
+    damageClass: {
+      type: damageClassType,
+      description: '',
+      resolve: move => getDamageClass(move.damageClassId),
+    },
+    effect: {
+      type: effectType,
+      description: '',
+      resolve: move => getEffect(move.effectId),
+    },
+    stat: {
+      type: statType,
+      description: '',
+      resolve: move => getStat(move.statId),
+    },
+    statChange: {
+      type: GraphQLInt,
+      description: '',
+    },
+    statChance: {
+      type: GraphQLInt,
+      description: '',
+    },
+    ailment: {
+      type: ailmentType,
+      description: '',
+      resolve: move => getAilment(move.ailmentId),
+    },
+    ailmentChance: {
+      type: GraphQLInt,
+      description: '',
+    },
+    minHits: {
+      type: GraphQLInt,
+      description: '',
+    },
+    maxHits: {
+      type: GraphQLInt,
+      description: '',
+    },
+    minTurns: {
+      type: GraphQLInt,
+      description: '',
+    },
+    maxTurns: {
+      type: GraphQLInt,
+      description: '',
+    },
+    drain: {
+      type: GraphQLInt,
+      description: '',
+    },
+    healing: {
+      type: GraphQLInt,
+      description: '',
+    },
+    flinchChance: {
+      type: GraphQLInt,
+      description: '',
+    },
+  }),
+  interfaces: [nodeInterface],
+});
+
+const pokemonType = new GraphQLObjectType({
+  name: 'Pokemon',
+  description: '',
+  fields: () => ({
+    id: globalIdField('Pokemon'),
+    identifier: {
+      type: GraphQLString,
+      description: '',
+    },
+    name: {
+      type: GraphQLString,
+      description: '',
+    },
+    genus: {
+      type: GraphQLString,
+      description: '',
+    },
+    evolvesFromPokemon: {
+      type: pokemonType,
+      description: '',
+      resolve: pokemon => getPokemon(pokemon.evolvesFromPokemonId),
+    },
+    evolvesToPokemon: {
+      type: pokemonType,
+      description: '',
+      resolve: pokemon => getPokemon(pokemon.evolvesToPokemonId),
+    },
+    evolvesChainId: {
+      type: GraphQLInt,
+      description: '',
+    },
+    color: {
+      type: colorType,
+      description: '',
+      resolve: pokemon => getColor(pokemon.colorId),
+    },
+    shape: {
+      type: pokemonShapeType,
+      description: '',
+      resolve: pokemon => getPokemonShape(pokemon.shapeId),
+    },
+    habitat: {
+      type: pokemonHabitatType,
+      description: '',
+      resolve: pokemon => getPokemonHabitat(pokemon.habitatId),
+    },
+    genderRate: {
+      type: GraphQLInt,
+      description: '',
+    },
+    captureRate: {
+      type: GraphQLInt,
+      description: '',
+    },
+    baseHappiness: {
+      type: GraphQLInt,
+      description: '',
+    },
+    isBaby: {
+      type: GraphQLBoolean,
+      description: '',
+    },
+    hatchCounter: {
+      type: GraphQLInt,
+      description: '',
+    },
+    hasGenderDifferences: {
+      type: GraphQLBoolean,
+      description: '',
+    },
+    formsSwitchable: {
+      type: GraphQLBoolean,
+      description: '',
+    },
+    growthRate: {
+      type: growthRateType,
+      description: '',
+      resolve: pokemon => getGrowthRate(pokemon.growthRateId),
+    },
+    height: {
+      type: GraphQLInt,
+      description: '',
+    },
+    width: {
+      type: GraphQLInt,
+      description: '',
+    },
+    baseExperience: {
+      type: GraphQLInt,
+      description: '',
+    },
+    // TODO stats
+    // TODO moves
+    types: {
+      type: typeConnection,
+      description: '',
+      args: connectionArgs,
+      resolve: (pokemon, args) => connectionFromArray(
+        pokemon.types.map(({typeId}) => getType(typeId)),
+        args
+      ),
+    }
   }),
   interfaces: [nodeInterface],
 });
@@ -274,8 +640,8 @@ const growthRateType = new GraphQLObjectType({
 /**
  * Define your own connection types here
  */
-var {connectionType: widgetConnection} =
-  connectionDefinitions({name: 'Widget', nodeType: widgetType});
+var {connectionType: typeConnection} =
+  connectionDefinitions({name: 'Type', nodeType: typeType});
 
 /**
  * This is the type that will be the root of our query,
@@ -286,9 +652,14 @@ var queryType = new GraphQLObjectType({
   fields: () => ({
     node: nodeField,
     // Add your own root fields here
-    viewer: {
-      type: userType,
-      resolve: () => getViewer(),
+    pokemons: {
+      type: new GraphQLList(pokemonType),
+      args: {
+        ids: {
+          type: new GraphQLList(GraphQLString),
+        },
+      },
+      resolve: (root, {ids}) => ids.map(id => getPokemon(id)),
     },
   }),
 });

@@ -2,72 +2,72 @@ const data = {
   "1": {
     "identifier":"ball",
     "name":"Ball",
-    "awesome_name":"Pomaceous"
+    awesomeName: "Pomaceous"
   },
   "2": {
     "identifier":"squiggle",
     "name":"Squiggle",
-    "awesome_name":"Caudal"
+    awesomeName: "Caudal"
   },
   "3": {
     "identifier":"fish",
     "name":"Fish",
-    "awesome_name":"Ichthyic"
+    awesomeName: "Ichthyic"
   },
   "4": {
     "identifier":"arms",
     "name":"Arms",
-    "awesome_name":"Brachial"
+    awesomeName: "Brachial"
   },
   "5": {
     "identifier":"blob",
     "name":"Blob",
-    "awesome_name":"Alvine"
+    awesomeName: "Alvine"
   },
   "6": {
     "identifier":"upright",
     "name":"Upright",
-    "awesome_name":"Sciurine"
+    awesomeName: "Sciurine"
   },
   "7": {
     "identifier":"legs",
     "name":"Legs",
-    "awesome_name":"Crural"
+    awesomeName: "Crural"
   },
   "8": {
     "identifier":"quadruped",
     "name":"Quadruped",
-    "awesome_name":"Mensal"
+    awesomeName: "Mensal"
   },
   "9": {
     "identifier":"wings",
     "name":"Wings",
-    "awesome_name":"Alar"
+    awesomeName: "Alar"
   },
   "10": {
     "identifier":"tentacles",
     "name":"Tentacles",
-    "awesome_name":"Cilial"
+    awesomeName: "Cilial"
   },
   "11": {
     "identifier":"heads",
     "name":"Heads",
-    "awesome_name":"Polycephalic"
+    awesomeName: "Polycephalic"
   },
   "12": {
     "identifier":"humanoid",
     "name":"Humanoid",
-    "awesome_name":"Anthropomorphic"
+    awesomeName: "Anthropomorphic"
   },
   "13": {
     "identifier":"bug-wings",
     "name":"Bug wings",
-    "awesome_name":"Lepidopterous"
+    awesomeName: "Lepidopterous"
   },
   "14": {
     "identifier":"armor",
     "name":"Armor",
-    "awesome_name":"Chitinous"
+    awesomeName: "Chitinous"
   }
 };
 
