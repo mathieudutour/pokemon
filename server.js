@@ -7,8 +7,7 @@ import {Schema} from './data/schema';
 
 const APP_PORT = 3000;
 const GRAPHQL_PORT = 8080;
-// import data from './data/db/ailments';
-// console.log(data)
+
 // Expose a GraphQL endpoint
 var graphQLServer = express();
 graphQLServer.use('/', graphQLHTTP({schema: Schema, pretty: true}));

@@ -62,6 +62,7 @@ import {
   getPokemonShape,
   getStat,
   getType,
+  getAllPokemons,
 } from './db/';
 
 /**
@@ -654,6 +655,8 @@ const pokemonType = new GraphQLObjectType({
  */
 var {connectionType: typeConnection} =
   connectionDefinitions({name: 'Type', nodeType: typeType});
+var {connectionType: pokemonConnection} =
+  connectionDefinitions({name: 'Pokemon', nodeType: pokemonType});
 
 /**
  * This is the type that will be the root of our query,
@@ -665,13 +668,13 @@ var queryType = new GraphQLObjectType({
     node: nodeField,
     // Add your own root fields here
     pokemons: {
-      type: new GraphQLList(pokemonType),
-      args: {
-        ids: {
-          type: new GraphQLList(GraphQLString),
-        },
-      },
-      resolve: (root, {ids}) => ids.map(id => getPokemon(id)),
+      type: pokemonConnection,
+      description: '',
+      args: connectionArgs,
+      resolve: (root, args) => connectionFromArray(
+        getAllPokemons(),
+        args
+      ),
     },
     pokemon: {
       type: pokemonType,

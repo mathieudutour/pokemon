@@ -48,4 +48,5 @@ export default {
   getPokemonShape: (id) => pokemonShapes.find(_ => _.id === id),
   getStat: (id) => stats.find(_ => _.id === id),
   getType: (id) => types.find(_ => _.id === id),
+  getAllPokemons: () => pokemons,
 };
