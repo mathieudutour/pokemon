@@ -1,0 +1,28 @@
+.container {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+#pokemon {
+  height: 650px;
+  background-image: url("Pokemon.png");
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+}
+#pokeball {
+    background-image: url("Pokeball.png");
+    margin-top: 20%;
+    margin-left: calc(50% - 150px);
+    position: absolute;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+#play {
+  height: 650px;
+  
+}
